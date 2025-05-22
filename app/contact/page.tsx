@@ -49,12 +49,13 @@ export default function ContactPage() {
           </p>
         </div>
       ) : (
-        <form onSubmit={handleSubmit} className="space-y-6 bg-slate-50 p-6 rounded-lg">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="space-y-2">
-              <label htmlFor="name" className="text-sm font-medium">
-                Name
-              </label>
+        <div className="max-w-md mx-auto">
+          <form onSubmit={handleSubmit} className="space-y-6 bg-slate-50 p-6 rounded-lg">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="space-y-2">
+                <label htmlFor="name" className="text-sm font-medium">
+                  Name
+                </label>
               <Input id="name" required />
             </div>
             <div className="space-y-2">
@@ -103,10 +104,11 @@ export default function ContactPage() {
 
           {error && <div className="text-red-600 text-sm">{error}</div>}
 
-          <Button type="submit" className="bg-slate-900 hover:bg-slate-800" disabled={isSubmitting}>
-            {isSubmitting ? "Sending..." : "Submit"}
-          </Button>
-        </form>
+            <Button type="submit" className="bg-slate-900 hover:bg-slate-800" disabled={isSubmitting}>
+              {isSubmitting ? "Sending..." : "Submit"}
+            </Button>
+          </form>
+        </div>
       )}
     </div>
   )
