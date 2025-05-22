@@ -1,5 +1,11 @@
 import Link from "next/link"
-import { ArrowRight, ChevronRight } from "lucide-react"
+import {
+  ArrowRight,
+  ChevronRight,
+  Target,
+  Cog,
+  Handshake,
+} from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 
@@ -69,19 +75,19 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
             {[
               {
-                icon: "🎯",
+                icon: Target,
                 title: "Go-to-Market Optimization",
                 description:
                   "Refining your GTM motion for efficiency and scale. From customer acquisition cost reduction to sales process optimization—I help you find the leverage points that compound growth without burning through runway.",
               },
               {
-                icon: "⚙️",
+                icon: Cog,
                 title: "Operational Strategy",
                 description:
                   "Diagnosing and fixing the operational inefficiencies that slow you down. Whether it's org design, process optimization, or resource allocation—I help you build systems that scale with intention.",
               },
               {
-                icon: "🚀",
+                icon: Handshake,
                 title: "Executive Transitions & Negotiations",
                 description:
                   "Career-defining moves require strategic thinking. From compensation negotiations to role transitions, I help ambitious professionals navigate inflection points with clarity and confidence.",
@@ -89,10 +95,8 @@ export default function Home() {
             ].map((service, index) => (
               <div key={index} className="group">
                 <Card className="h-full transition-all duration-300 hover:shadow-lg">
-                  <CardContent className="p-6">
-                    <div className="text-4xl mb-4 transform transition-transform duration-300 group-hover:scale-110">
-                      {service.icon}
-                    </div>
+                  <CardContent className="p-6 flex flex-col items-center text-center">
+                    <service.icon className="h-10 w-10 mb-4 transform transition-transform duration-300 group-hover:scale-110" />
                     <h3 className="text-xl font-bold mb-2">{service.title}</h3>
                     <p className="text-gray-500">{service.description}</p>
                   </CardContent>
