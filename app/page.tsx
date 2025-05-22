@@ -19,7 +19,7 @@ export default function Home() {
       <section className="w-full py-8 md:py-16 lg:py-20 bg-white">
         <div className="container mx-auto px-4 md:px-6 max-w-7xl">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center justify-items-center">
-            <div className="flex flex-col space-y-4 text-center md:text-left">
+            <div className="flex flex-col space-y-4 text-center md:text-left animate-fadeSlideIn">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl">
                 Strategy That Actually Ships
               </h1>
@@ -28,7 +28,7 @@ export default function Home() {
               </p>
               <div className="pt-4 flex justify-center md:justify-start">
                 <Link href="/contact">
-                  <Button className="bg-slate-900 hover:bg-slate-800">
+                  <Button className="bg-slate-900 hover:bg-slate-800 transition-transform duration-200 hover:-translate-y-0.5">
                     LET'S BUILD WHAT MATTERS
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
@@ -37,7 +37,7 @@ export default function Home() {
             </div>
             <div className="flex justify-center w-full">
               <div className="relative w-[400px] h-[500px] md:w-[500px] md:h-[600px] overflow-hidden">
-                <img src="/images/Hero-Grayscale.png" alt="Tom Hamilton" className="object-cover w-full h-full" />
+                <img src="/images/Hero-Grayscale.png" alt="Tom Hamilton" className="object-cover w-full h-full animate-float" />
               </div>
             </div>
           </div>
@@ -243,7 +243,7 @@ export default function Home() {
               </p>
             </div>
             <Link href="/contact" className="w-full">
-              <Button className="w-full bg-white text-slate-900 hover:bg-gray-200 h-12 transition-all duration-200">
+              <Button className="w-full bg-white text-slate-900 hover:bg-gray-200 h-12 transition-transform duration-200 hover:-translate-y-0.5">
                 Start the Conversation
               </Button>
             </Link>
