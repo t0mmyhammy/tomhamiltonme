@@ -2,6 +2,7 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { Menu } from "lucide-react"
+import ThemeToggle from "@/components/theme-toggle"
 
 export default function SiteHeader() {
   return (
@@ -28,6 +29,7 @@ export default function SiteHeader() {
           <Link href="/results" className="text-sm font-medium hover:text-slate-700 transition-colors duration-200">
             Results
           </Link>
+          <ThemeToggle />
           <Link href="/contact">
             <Button
               variant="outline"
@@ -64,6 +66,7 @@ export default function SiteHeader() {
               <Link href="/results" className="text-lg font-medium hover:text-slate-700 transition-colors duration-200">
                 Results
               </Link>
+              <ThemeToggle />
               <Link
                 href="/contact"
                 className="text-lg font-medium hover:text-slate-700 transition-colors duration-200"
