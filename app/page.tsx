@@ -135,8 +135,8 @@ export default function Home() {
             <div className="space-y-2 max-w-4xl mx-auto">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">How I Work</h2>
               <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl">
-                A momentum-first approach that turns clarity into execution—and
-                execution into results.
+                A momentum-first approach that turns clarity into action—and
+                action into results.
               </p>
             </div>
           </div>
@@ -146,31 +146,31 @@ export default function Home() {
                 step: "Step 1",
                 title: "Immersion & Insight",
                 description:
-                  "Listening closely and observing your product, customers, and team to find the real leverage points.",
+                  "I dig in quickly—listening, observing, and asking sharp questions to find where leverage lives.",
               },
               {
                 step: "Step 2",
-                title: "Framework Co-Creation",
+                title: "Co-Creating Clarity",
                 description:
-                  "Developing custom decision-making tools that reflect your goals and constraints.",
+                  "Together, we build simple tools and frameworks that help you make faster, better decisions.",
               },
               {
                 step: "Step 3",
                 title: "Action Planning",
                 description:
-                  "Translating clarity into a focused, accountable roadmap with defined owners and timelines.",
+                  "We turn that clarity into a focused plan with clear owners, timelines, and priorities.",
               },
               {
                 step: "Step 4",
                 title: "Embedded Execution",
                 description:
-                  "Working side by side through the messy middle—no armchair advice, just sleeves-up support.",
+                  "I work alongside your team to push through the messy middle—no handoffs, no fluff.",
               },
               {
                 step: "Step 5",
-                title: "Continuous Calibration",
+                title: "Ongoing Calibration",
                 description:
-                  "Regular check-ins to adapt based on real-world feedback and keep momentum building.",
+                  "We check in, adjust, and keep moving—building momentum as we learn what works.",
               },
             ].map((item, index) => (
               <div key={index} className="flex items-start">
