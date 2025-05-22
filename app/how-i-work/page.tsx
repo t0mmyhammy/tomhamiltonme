@@ -1,6 +1,6 @@
 export default function HowIWorkPage() {
   return (
-    <div className="container max-w-4xl py-12 md:py-16">
+    <div className="container mx-auto px-4 md:px-6 max-w-4xl py-12 md:py-16">
       <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8">How I Work</h1>
 
       <div className="prose prose-slate max-w-none">
