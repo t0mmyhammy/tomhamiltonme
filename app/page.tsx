@@ -10,6 +10,7 @@ import {
 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
+import { cn } from "@/lib/utils"
 
 export default function Home() {
   return (
@@ -75,7 +76,7 @@ export default function Home() {
               </p>
             </div>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-6 gap-6 max-w-6xl mx-auto">
             {[
               {
                 icon: Target,
@@ -107,17 +108,22 @@ export default function Home() {
                 description:
                   "Career-defining moves deserve clarity, not guesswork. From compensation strategy to role transitions, I help leaders make confident decisions and navigate inflection points with structure, confidence, and smart positioning.",
               },
-            ].map((service, index) => (
-              <div key={index} className="group">
-                <Card className="h-full transition-all duration-300 hover:shadow-lg">
-                  <CardContent className="p-6 flex flex-col items-center text-center">
-                    <service.icon className="h-10 w-10 mb-4 transform transition-transform duration-300 group-hover:scale-110" />
-                    <h3 className="text-xl font-bold mb-2">{service.title}</h3>
-                    <p className="text-gray-500">{service.description}</p>
-                  </CardContent>
-                </Card>
-              </div>
-            ))}
+            ].map((service, index) => {
+              let colStart = "";
+              if (index === 3) colStart = "md:col-start-2";
+              if (index === 4) colStart = "md:col-start-4";
+              return (
+                <div key={index} className={cn("group md:col-span-2", colStart)}>
+                  <Card className="h-full transition-all duration-300 hover:shadow-lg">
+                    <CardContent className="p-6 flex flex-col items-center text-center">
+                      <service.icon className="h-10 w-10 mb-4 transform transition-transform duration-300 group-hover:scale-110" />
+                      <h3 className="text-xl font-bold mb-2">{service.title}</h3>
+                      <p className="text-gray-500">{service.description}</p>
+                    </CardContent>
+                  </Card>
+                </div>
+              );
+            })}
           </div>
         </div>
       </section>
