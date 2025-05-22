@@ -204,24 +204,21 @@ export default function Home() {
             <Card>
               <CardContent className="p-6">
                 <p className="text-gray-500 italic">
-                  "Cut customer acquisition cost by 30% in six months for a Series A proptech startup through
-                  go-to-market redesign and sales process optimization."
+                  "We were burning too much on acquisition and not scaling fast enough—until Tom stepped in. In six months, our CAC dropped 30% and our GTM strategy finally clicked. But the real value? Tom didn’t just fix sales—he challenged how we worked, pushed us on accountability, and helped shape a culture of execution. He saw opportunities across the business we didn’t even know we were missing."
                 </p>
               </CardContent>
             </Card>
             <Card>
               <CardContent className="p-6">
                 <p className="text-gray-500 italic">
-                  "Improved on-time delivery by 20% and reduced cost-per-order for last-mile delivery company, enabling
-                  major retail partnership."
+                  "Our ops were messy and expensive. Tom helped us rebuild the playbook, improve on-time delivery, and cut costs enough to expand a national retail partnership. What stood out was how quickly he called out our blind spots and built trust on the ground. He didn’t stay in his lane—he raised the bar across the board and held us to it."
                 </p>
               </CardContent>
             </Card>
             <Card>
               <CardContent className="p-6">
                 <p className="text-gray-500 italic">
-                  "Guided startup CEO through executive negotiation resulting in $90k compensation increase and clearer
-                  equity progression path."
+                  "I went into the offer conversation feeling uncertain. With Tom’s help, I walked out with $90k more and a clear path on equity. But more than the comp bump, he helped me show up differently—more strategic, more clear. He asked hard questions early, helped me think bigger, and even challenged how I defined my next chapter. That kind of coaching sticks."
                 </p>
               </CardContent>
             </Card>
