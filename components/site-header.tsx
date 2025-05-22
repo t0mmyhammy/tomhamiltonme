@@ -14,10 +14,10 @@ export default function SiteHeader() {
         </div>
         <nav className="hidden md:flex gap-8 items-center">
           <Link
-            href="/strategic-advisory"
+            href="/what-i-do"
             className="text-sm font-medium hover:text-slate-700 transition-colors duration-200"
           >
-            Strategic Advisory
+            What I Do
           </Link>
           <Link href="/how-i-work" className="text-sm font-medium hover:text-slate-700 transition-colors duration-200">
             How I Work
@@ -47,10 +47,10 @@ export default function SiteHeader() {
           <SheetContent side="right">
             <nav className="flex flex-col gap-4 mt-8">
               <Link
-                href="/strategic-advisory"
+                href="/what-i-do"
                 className="text-lg font-medium hover:text-slate-700 transition-colors duration-200"
               >
-                Strategic Advisory
+                What I Do
               </Link>
               <Link
                 href="/how-i-work"
