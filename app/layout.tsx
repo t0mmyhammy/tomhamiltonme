@@ -8,7 +8,7 @@ import SiteFooter from "@/components/site-footer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "Tom Hamilton | Strategic Advisory",
+  title: "Tom Hamilton | What I Do",
   description:
     "Strategy that actually ships. For founders and executives who refuse to let good strategy die in a slide deck.",
     generator: 'v0.dev'
