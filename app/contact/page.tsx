@@ -66,65 +66,67 @@ export default function ContactPage() {
           </p>
         </div>
       ) : (
-        <form onSubmit={handleSubmit} className="space-y-6 bg-slate-50 p-6 rounded-lg">
-          <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            <div className="space-y-2">
-              <label htmlFor="name" className="text-sm font-medium">
-                Name
-              </label>
-              <Input id="name" name="name" required />
+        <div className="max-w-md mx-auto">
+          <form onSubmit={handleSubmit} className="space-y-6 bg-slate-50 p-6 rounded-lg">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+              <div className="space-y-2">
+                <label htmlFor="name" className="text-sm font-medium">
+                  Name
+                </label>
+                <Input id="name" name="name" required />
+              </div>
+              <div className="space-y-2">
+                <label htmlFor="email" className="text-sm font-medium">
+                  Email
+                </label>
+                <Input id="email" name="email" type="email" required />
+              </div>
             </div>
+
             <div className="space-y-2">
-              <label htmlFor="email" className="text-sm font-medium">
-                Email
+              <label htmlFor="company" className="text-sm font-medium">
+                Company
               </label>
-              <Input id="email" name="email" type="email" required />
+              <Input id="company" name="company" />
             </div>
-          </div>
 
-          <div className="space-y-2">
-            <label htmlFor="company" className="text-sm font-medium">
-              Company
-            </label>
-            <Input id="company" name="company" />
-          </div>
+            <div className="space-y-2">
+              <label htmlFor="interest" className="text-sm font-medium">
+                I'm interested in
+              </label>
+              <Select value={interest} onValueChange={setInterest}>
+                <SelectTrigger>
+                  <SelectValue placeholder="Select an option" />
+                </SelectTrigger>
+                <SelectContent>
+                  <SelectItem value="gtm">Go-to-Market Optimization</SelectItem>
+                  <SelectItem value="operations">Operational Strategy</SelectItem>
+                  <SelectItem value="executive">Executive Transitions & Negotiations</SelectItem>
+                  <SelectItem value="other">Something else</SelectItem>
+                </SelectContent>
+              </Select>
+            </div>
 
-          <div className="space-y-2">
-            <label htmlFor="interest" className="text-sm font-medium">
-              I'm interested in
-            </label>
-            <Select value={interest} onValueChange={setInterest}>
-              <SelectTrigger>
-                <SelectValue placeholder="Select an option" />
-              </SelectTrigger>
-              <SelectContent>
-                <SelectItem value="gtm">Go-to-Market Optimization</SelectItem>
-                <SelectItem value="operations">Operational Strategy</SelectItem>
-                <SelectItem value="executive">Executive Transitions & Negotiations</SelectItem>
-                <SelectItem value="other">Something else</SelectItem>
-              </SelectContent>
-            </Select>
-          </div>
+            <div className="space-y-2">
+              <label htmlFor="message" className="text-sm font-medium">
+                Tell me about your situation
+              </label>
+              <Textarea
+                id="message"
+                name="message"
+                rows={5}
+                placeholder="What challenges are you facing? What outcomes are you looking for?"
+                required
+              />
+            </div>
 
-          <div className="space-y-2">
-            <label htmlFor="message" className="text-sm font-medium">
-              Tell me about your situation
-            </label>
-            <Textarea
-              id="message"
-              name="message"
-              rows={5}
-              placeholder="What challenges are you facing? What outcomes are you looking for?"
-              required
-            />
-          </div>
+            {error && <div className="text-red-600 text-sm">{error}</div>}
 
-          {error && <div className="text-red-600 text-sm">{error}</div>}
-
-          <Button type="submit" className="bg-slate-900 hover:bg-slate-800" disabled={isSubmitting}>
-            {isSubmitting ? "Sending..." : "Submit"}
-          </Button>
-        </form>
+            <Button type="submit" className="bg-slate-900 hover:bg-slate-800" disabled={isSubmitting}>
+              {isSubmitting ? "Sending..." : "Submit"}
+            </Button>
+          </form>
+        </div>
       )}
     </div>
   )
