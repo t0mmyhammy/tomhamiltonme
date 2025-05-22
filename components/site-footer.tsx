@@ -7,9 +7,11 @@ export default function SiteFooter() {
   return (
     <footer className="w-full border-t py-6 md:py-8">
       <div className="container flex flex-col md:flex-row justify-between items-center gap-4 md:gap-0">
-        <div className="flex flex-col items-center md:items-start gap-2 text-center md:text-left">
-          <p className="text-sm text-gray-500">Based in Michigan • Working globally</p>
-          <p className="text-sm text-gray-500">© 2025 Tom Hamilton. Building clarity through action.</p>
+        <div className="flex flex-col items-center md:items-start gap-1 text-center md:text-left text-sm text-muted-foreground">
+          <span>
+            Based in Michigan <span aria-hidden="true" className="mx-1">&middot;</span> Working globally
+          </span>
+          <span>&copy; 2025 Tom Hamilton. Building clarity through action.</span>
         </div>
         <div className="flex items-center gap-4">
           <Link
