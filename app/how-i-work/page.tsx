@@ -4,48 +4,42 @@ export default function HowIWorkPage() {
       <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8">How I Work</h1>
 
       <div className="prose prose-slate max-w-none">
-        <h2>My Philosophy</h2>
-        <p>
-          The best strategies emerge from the intersection of rigorous thinking and practical constraints. I don't
-          believe in strategy for strategy's sake—every framework needs to translate into concrete actions your team can
-          execute.
-        </p>
-        <p>
-          I focus on finding leverage—the 20% of effort that drives 80% of results. That means ruthless prioritization,
-          clear accountability, and transparent tracking of what's working.
+        <p className="lead">
+          A momentum-first approach that turns clarity into execution—and execution into results.
         </p>
 
-        <h2>What to Expect</h2>
-        <ul>
+        <ol>
           <li>
-            <strong>Speed:</strong> Rapid diagnostic to identify the highest-impact opportunities
+            <strong>Immersion &amp; Insight</strong>
+            <br />
+            I start by listening—closely. That means observing your product, customers, and team in motion to understand
+            what’s working, what’s stuck, and where the real leverage lives.
           </li>
           <li>
-            <strong>Clarity:</strong> Frameworks that your team can understand and execute
+            <strong>Framework Co-Creation</strong>
+            <br />
+            We develop clear, custom tools to guide decision-making—not one-size-fits-all templates, but frameworks that
+            reflect your goals and constraints.
           </li>
           <li>
-            <strong>Partnership:</strong> Working side-by-side, not just sending recommendations
+            <strong>Action Planning</strong>
+            <br />
+            We translate clarity into a focused, accountable roadmap—defining owners, timelines, and what success
+            actually looks like.
           </li>
           <li>
-            <strong>Results:</strong> Measurable outcomes tied to your business goals
+            <strong>Embedded Execution</strong>
+            <br />
+            I work side by side with your team through the messy middle. No armchair advice—just sleeves-up support
+            where it counts.
           </li>
           <li>
-            <strong>Honesty:</strong> Direct feedback, even when it's uncomfortable
+            <strong>Continuous Calibration</strong>
+            <br />
+            We check in regularly, adapt based on real-world feedback, and make sure momentum keeps building—not
+            stalling.
           </li>
-        </ul>
-
-        <h2>Typical Timeline</h2>
-        <ul>
-          <li>
-            <strong>Week 1-2:</strong> Diagnostic and framework development
-          </li>
-          <li>
-            <strong>Week 3-6:</strong> Implementation planning and initial execution
-          </li>
-          <li>
-            <strong>Week 7+:</strong> Ongoing support and calibration based on results
-          </li>
-        </ul>
+        </ol>
       </div>
     </div>
   )
