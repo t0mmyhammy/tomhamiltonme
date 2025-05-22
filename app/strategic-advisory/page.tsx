@@ -10,13 +10,17 @@ export default function StrategicAdvisoryPage() {
       <div className="prose prose-slate max-w-none">
         <h2>What Makes This Different</h2>
         <p>
-          Most consultants give you frameworks. I give you frameworks plus the operational support to implement them.
-          Every engagement is designed around creating momentum, not just insights.
+          Most consultants hand you a framework and walk away. I give you frameworks <strong>plus</strong> the operational
+          support to bring them to life.
         </p>
-        <p>
-          Strategy is choice. It's what you say no to. If everyone on your team can't articulate the plan in plain
-          English, it's not a real strategy—it's just expensive planning.
-        </p>
+        <p>Every engagement is built to create <strong>momentum</strong>, not just PowerPoints.</p>
+        <blockquote>
+          <p>
+            Strategy is choice. It’s what you say <em>no</em> to.<br />If your team can’t explain the plan in plain English,
+            it’s not a strategy—it’s just expensive planning.
+          </p>
+        </blockquote>
+        <hr />
 
         <h2>Who I Work With</h2>
         <ul>
@@ -25,14 +29,75 @@ export default function StrategicAdvisoryPage() {
           <li>Teams stuck between strategy and execution</li>
           <li>Companies preparing for fundraising or major partnerships</li>
           <li>Leaders who want an advisor, not just a consultant</li>
+          <li>Individuals seeking 1:1 coaching for career transitions</li>
         </ul>
+        <hr />
 
         <h2>Engagement Styles</h2>
         <ul>
-          <li>Strategic Sprints (30-60 day focused projects)</li>
-          <li>Ongoing Advisory (3-6 month strategic partnership)</li>
-          <li>Executive Coaching (career transitions and negotiations)</li>
-          <li>Operational Audits (efficiency and scale diagnostics)</li>
+          <li>
+            <strong>Strategic Sprints</strong>
+            <br />30–60 day focused projects to solve a critical challenge or opportunity
+          </li>
+          <li>
+            <strong>Ongoing Advisory</strong>
+            <br />3–6 month strategic partnership, usually via retainer
+          </li>
+          <li>
+            <strong>Executive Coaching</strong>
+            <br />Support for career transitions, negotiations, or leveling up in-role
+          </li>
+          <li>
+            <strong>Operational Audits</strong>
+            <br />Deep dives to uncover inefficiencies and unlock scale
+          </li>
+          <li>
+            <strong>Outcome-Based Projects</strong>
+            <br />Aligning work directly to results—whether it's EBITDA gains or contract improvements
+          </li>
+        </ul>
+        <hr />
+
+        <h2>Contract Formats at Open Tee</h2>
+        <p>We offer flexible ways to collaborate depending on your needs:</p>
+
+        <h3>
+          1. <strong>Retainer Engagements</strong>
+        </h3>
+        <p>For ongoing support with flexibility built in</p>
+        <ul>
+          <li>2–3 month commitments</li>
+          <li>Includes set hours or days per month</li>
+          <li>Ideal for evolving priorities or multi-threaded support</li>
+        </ul>
+
+        <h3>
+          2. <strong>Project-Based Engagements</strong>
+        </h3>
+        <p>For defined goals and measurable outcomes</p>
+        <ul>
+          <li>Clear scope and timeline</li>
+          <li>Great for launching, scaling, or diagnosing key initiatives</li>
+          <li>Pricing reflects value and complexity</li>
+        </ul>
+
+        <h3>
+          3. <strong>Hourly Engagements (With Scope)</strong>
+        </h3>
+        <p>For targeted, short-term needs</p>
+        <ul>
+          <li>Billed hourly with a clearly defined scope</li>
+          <li>Ideal for quick-turn deliverables or advisory sessions</li>
+          <li>Fast, transparent, and frictionless</li>
+        </ul>
+
+        <h3>
+          4. <strong>Custom Engagements</strong>
+        </h3>
+        <p>Let’s get creative</p>
+        <ul>
+          <li>Open to sprints, equity models, hybrid setups, or advisory boards</li>
+          <li>If you have something different in mind, I’m all ears</li>
         </ul>
       </div>
 

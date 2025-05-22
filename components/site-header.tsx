@@ -28,12 +28,12 @@ export default function SiteHeader() {
           <Link href="/results" className="text-sm font-medium hover:text-slate-700 transition-colors duration-200">
             Results
           </Link>
-          <Link href="/newsletter">
+          <Link href="/contact">
             <Button
               variant="outline"
               className="border-slate-900 text-slate-900 hover:bg-slate-100 transition-all duration-200"
             >
-              GET CLARITY UPDATES
+              Lets Chat
             </Button>
           </Link>
         </nav>
@@ -65,10 +65,10 @@ export default function SiteHeader() {
                 Results
               </Link>
               <Link
-                href="/newsletter"
+                href="/contact"
                 className="text-lg font-medium hover:text-slate-700 transition-colors duration-200"
               >
-                Get Clarity Updates
+                Lets Chat
               </Link>
             </nav>
           </SheetContent>
