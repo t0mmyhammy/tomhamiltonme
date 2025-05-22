@@ -9,7 +9,7 @@ export default function SiteHeader() {
         <div className="container mx-auto flex h-16 items-center justify-between px-6 md:px-8">
         <div className="flex items-center gap-2 pl-2">
           <Link href="/" className="font-bold text-xl transition-all duration-200 hover:text-slate-700">
-            Tom Hamilton
+            Hi, I'm Tom 👋🏻
           </Link>
         </div>
         <nav className="hidden md:flex gap-8 items-center">
