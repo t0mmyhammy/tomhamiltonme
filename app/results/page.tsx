@@ -5,7 +5,9 @@ export default function ResultsPage() {
     <div className="container max-w-4xl py-12 md:py-16">
       <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8">Results</h1>
 
-      <p className="text-xl text-gray-600 mb-10">The outcomes that matter—measurable impact, not just activity.</p>
+      <div className="prose prose-slate max-w-none mb-10">
+        <p>The outcomes that matter—measurable impact, not just activity.</p>
+      </div>
 
       <div className="space-y-10">
         {[
