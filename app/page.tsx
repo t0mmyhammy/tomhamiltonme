@@ -244,15 +244,16 @@ export default function Home() {
         <div className="container mx-auto px-4 md:px-6 max-w-7xl">
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center max-w-6xl mx-auto">
             <div className="space-y-4">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Let's Talk Strategy</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Feeling stuck? Let’s move.</h2>
               <p className="text-gray-300 md:text-xl">
-                Working on something challenging? Whether it's go-to-market optimization, operational efficiency,
-                or a career transition—I'm here to help.
+                When growth stalls or decisions pile up, you don’t need more noise—you need traction.
+                Whether you’re scaling a team, reworking your strategy, or weighing a big career move, I help
+                leaders get clear and make confident moves forward.
               </p>
             </div>
             <Link href="/contact" className="w-full">
               <Button className="w-full bg-white text-slate-900 hover:bg-gray-200 h-12 transition-transform duration-200 hover:-translate-y-0.5">
-                Start the Conversation
+                → Let’s Get Going
               </Button>
             </Link>
           </div>
