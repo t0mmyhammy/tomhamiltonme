@@ -1,5 +1,7 @@
 import Link from "next/link"
-import { Linkedin, Twitter } from "lucide-react"
+import { Linkedin } from "lucide-react"
+import XLogo from "@/components/icons/x-logo"
+import SubstackLogo from "@/components/icons/substack-logo"
 
 export default function SiteFooter() {
   return (
@@ -10,21 +12,29 @@ export default function SiteFooter() {
           <p className="text-sm text-gray-500">© 2025 Tom Hamilton. Building clarity through action.</p>
         </div>
         <div className="flex items-center gap-4">
-          <Link href="https://linkedin.com" target="_blank" rel="noopener noreferrer">
+          <Link
+            href="https://www.linkedin.com/in/thomasghamilton/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
             <Linkedin className="h-5 w-5 text-gray-500 hover:text-gray-900" />
             <span className="sr-only">LinkedIn</span>
           </Link>
-          <Link href="https://twitter.com" target="_blank" rel="noopener noreferrer">
-            <Twitter className="h-5 w-5 text-gray-500 hover:text-gray-900" />
-            <span className="sr-only">Twitter</span>
-          </Link>
           <Link
-            href="https://substack.com"
+            href="https://x.com/t0mmyhammy"
             target="_blank"
             rel="noopener noreferrer"
-            className="text-sm text-gray-500 hover:text-gray-900"
           >
-            Substack
+            <XLogo className="h-5 w-5 text-gray-500 hover:text-gray-900" />
+            <span className="sr-only">X</span>
+          </Link>
+          <Link
+            href="https://forwardfactor.substack.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <SubstackLogo className="h-5 w-5 text-gray-500 hover:text-gray-900" />
+            <span className="sr-only">Substack</span>
           </Link>
           <Link href="mailto:hello@example.com" className="text-sm text-gray-500 hover:text-gray-900">
             hello@example.com
