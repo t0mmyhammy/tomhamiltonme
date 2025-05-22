@@ -49,13 +49,14 @@ export default function Home() {
           <div className="flex flex-col items-center space-y-4 text-center">
             <div className="space-y-2 max-w-4xl mx-auto">
               <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl">
-                Tired of strategy sessions that produce beautiful decks but zero momentum?
+                Ready to stop circling ideas and start building momentum?
               </h2>
               <p className="mx-auto max-w-[700px] text-xl font-semibold mt-6">I get it.</p>
               <p className="mx-auto max-w-[700px] text-gray-500 md:text-lg mt-4">
                 Strategy without execution is just expensive planning. I work with founders, executives, and scaling
-                teams who need someone to bridge that gap—turning strategic clarity into operational reality. No
-                consultancy theater. Just focused work that moves the needle.
+                teams to bridge that gap—turning clarity into operational reality. My approach is hands on to build
+                solutions and supporting systems that actually scale. Just focused work that moves the needle and sets
+                you up to grow while adopting behaviors and practices with the latest in AI and other technology.
               </p>
             </div>
           </div>
