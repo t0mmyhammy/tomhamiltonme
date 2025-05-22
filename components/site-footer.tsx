@@ -36,8 +36,8 @@ export default function SiteFooter() {
             <SubstackLogo className="h-5 w-5 text-gray-500 hover:text-gray-900" />
             <span className="sr-only">Substack</span>
           </Link>
-          <Link href="mailto:hello@example.com" className="text-sm text-gray-500 hover:text-gray-900">
-            hello@example.com
+          <Link href="mailto:hi@tomhamilton.me" className="text-sm text-gray-500 hover:text-gray-900">
+            hi@tomhamilton.me
           </Link>
         </div>
       </div>
