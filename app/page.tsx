@@ -7,10 +7,6 @@ import NewsletterSignup from "@/components/newsletter-signup"
 export default function Home() {
   return (
     <div className="flex flex-col min-h-screen">
-      {/* Announcement Bar */}
-      <div className="w-full bg-slate-900 text-white py-2 px-4 text-center text-sm">
-        <span>📈 New guide: "The Executive's Guide to Strategic Clarity" - Get frameworks that actually work</span>
-      </div>
 
       {/* Hero Section */}
       <section className="w-full py-12 md:py-24 lg:py-32 bg-white">
