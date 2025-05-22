@@ -122,7 +122,8 @@ export default function Home() {
             <div className="space-y-2 max-w-4xl mx-auto">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">How I Work</h2>
               <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl">
-                A framework-first approach that prioritizes action over analysis.
+                A momentum-first approach that turns clarity into execution—and
+                execution into results.
               </p>
             </div>
           </div>
@@ -130,28 +131,33 @@ export default function Home() {
             {[
               {
                 step: "Step 1",
-                title: "Rapid Diagnostic",
-                description: "Quick assessment to identify the highest-leverage opportunities and constraints",
+                title: "Immersion & Insight",
+                description:
+                  "Listening closely and observing your product, customers, and team to find the real leverage points.",
               },
               {
                 step: "Step 2",
-                title: "Framework Development",
-                description: "Custom frameworks tailored to your specific situation and goals",
+                title: "Framework Co-Creation",
+                description:
+                  "Developing custom decision-making tools that reflect your goals and constraints.",
               },
               {
                 step: "Step 3",
-                title: "Implementation Planning",
-                description: "Clear roadmap with defined ownership, timelines, and success metrics",
+                title: "Action Planning",
+                description:
+                  "Translating clarity into a focused, accountable roadmap with defined owners and timelines.",
               },
               {
                 step: "Step 4",
-                title: "Side-by-Side Execution",
-                description: "Rolling up sleeves to work through the messy middle—not just sending recommendations",
+                title: "Embedded Execution",
+                description:
+                  "Working side by side through the messy middle—no armchair advice, just sleeves-up support.",
               },
               {
                 step: "Step 5",
                 title: "Continuous Calibration",
-                description: "Regular check-ins to adjust course based on real-world feedback and results",
+                description:
+                  "Regular check-ins to adapt based on real-world feedback and keep momentum building.",
               },
             ].map((item, index) => (
               <div key={index} className="flex items-start">

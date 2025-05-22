@@ -1,103 +1,172 @@
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { ArrowRight } from "lucide-react"
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import { ArrowRight } from "lucide-react";
 
 export default function StrategicAdvisoryPage() {
   return (
     <div className="container mx-auto px-4 md:px-6 max-w-4xl py-12 md:py-16">
-      <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8">Strategic Advisory</h1>
+      <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8">
+        Strategic Advisory
+      </h1>
 
       <div className="prose prose-slate max-w-none">
+        <p className="lead">
+          For leaders who want clarity that drives action—and strategy that
+          doesn’t stall.
+        </p>
+
         <h2>What Makes This Different</h2>
         <p>
-          Most consultants hand you a framework and walk away. I give you frameworks <strong>plus</strong> the operational
-          support to bring them to life.
+          Most consultants drop a framework and disappear. I stay in it with
+          you—helping you translate insight into execution, and execution into
+          outcomes.
         </p>
-        <p>Every engagement is built to create <strong>momentum</strong>, not just PowerPoints.</p>
+        <p>
+          My work is designed to build momentum, not noise. That means fewer
+          “big reveals” and more real-time progress. I pair strategic clarity
+          with hands-on support—so your team can move faster, not just feel
+          smarter.
+        </p>
+        <p>
+          I also carve out time every week to stay sharp on what’s next—whether
+          that’s AI-powered workflows, automation tools, or new ways to reduce
+          friction. You’ll always get modern thinking and systems that scale.
+        </p>
         <blockquote>
           <p>
-            Strategy is choice. It’s what you say <em>no</em> to.<br />If your team can’t explain the plan in plain English,
-            it’s not a strategy—it’s just expensive planning.
+            Strategy is about focus.
+            <br />
+            If your team can’t explain the plan in plain English—it’s not a
+            strategy. It’s a delay.
           </p>
         </blockquote>
-        <hr />
 
         <h2>Who I Work With</h2>
         <ul>
-          <li>Founders scaling from product-market fit to growth</li>
-          <li>Executives navigating role transitions and negotiations</li>
-          <li>Teams stuck between strategy and execution</li>
-          <li>Companies preparing for fundraising or major partnerships</li>
-          <li>Leaders who want an advisor, not just a consultant</li>
-          <li>Individuals seeking 1:1 coaching for career transitions</li>
+          <li>Founders moving from product-market fit to scalable growth</li>
+          <li>
+            Executives navigating career transitions or high-stakes negotiations
+          </li>
+          <li>Teams stuck between what to do and how to get it done</li>
+          <li>
+            Companies preparing for fundraising, partnerships, or expansion
+          </li>
+          <li>
+            Leaders who want a trusted advisor—not just another consultant
+          </li>
+          <li>
+            Individuals looking for clear, grounded 1:1 coaching during
+            inflection points
+          </li>
         </ul>
-        <hr />
+
+        <h2>How I Help</h2>
+        <ul>
+          <li>
+            <strong>🧭 Go-to-Market Optimization</strong>
+            <br />
+            Go-to-market isn’t about doing more—it’s about doing what matters
+            most. I help teams identify bottlenecks and leverage points that
+            accelerate growth without burning out the team.
+          </li>
+          <li>
+            <strong>⚙️ Operational Strategy</strong>
+            <br />
+            Most teams don’t fail from lack of effort—they fail from friction.
+            Whether it’s org design, unclear ownership, or process debt—I help
+            you build systems that scale with intention.
+          </li>
+          <li>
+            <strong>🤝 Executive Transitions &amp; Negotiations</strong>
+            <br />
+            Career-defining moves are high-stakes—and often high-noise. I help
+            leaders approach transitions with structure and clarity—from
+            compensation to role fit to long-term growth.
+          </li>
+          <li>
+            <strong>🧪 Product Strategy</strong>
+            <br />
+            Building product is easy. Building the right product is where it
+            breaks. I help align roadmap, feedback, and business goals so you
+            make smarter bets and avoid wasted cycles.
+          </li>
+        </ul>
 
         <h2>Engagement Styles</h2>
         <ul>
           <li>
             <strong>Strategic Sprints</strong>
-            <br />30–60 day focused projects to solve a critical challenge or opportunity
+            <br />
+            30–60 day focused engagements to solve a high-leverage problem
           </li>
           <li>
             <strong>Ongoing Advisory</strong>
-            <br />3–6 month strategic partnership, usually via retainer
+            <br />
+            3–6 month partnerships with recurring sessions, async input, and
+            embedded support
           </li>
           <li>
             <strong>Executive Coaching</strong>
-            <br />Support for career transitions, negotiations, or leveling up in-role
+            <br />
+            1:1 guidance for professionals navigating transitions, negotiations,
+            or inflection points
           </li>
           <li>
             <strong>Operational Audits</strong>
-            <br />Deep dives to uncover inefficiencies and unlock scale
+            <br />
+            Deep dives to uncover inefficiencies and build a plan for scale
           </li>
           <li>
             <strong>Outcome-Based Projects</strong>
-            <br />Aligning work directly to results—whether it's EBITDA gains or contract improvements
+            <br />
+            Engagements directly tied to measurable results—EBITDA, retention,
+            ops improvements, or strategic clarity
           </li>
         </ul>
-        <hr />
 
-        <h2>Typical Contract Formats</h2>
-        <p>I offer flexible ways to collaborate depending on your needs:</p>
+        <h2>Contract Formats at Open Tee</h2>
+        <p>Flexible structures to fit your stage, team, and pace:</p>
 
         <h3>
           1. <strong>Retainer Engagements</strong>
         </h3>
-        <p>For ongoing support with flexibility built in</p>
+        <p>For ongoing support and flexibility</p>
         <ul>
           <li>2–3 month commitments</li>
-          <li>Includes set hours or days per month</li>
-          <li>Ideal for evolving priorities or multi-threaded support</li>
+          <li>Set hours or days per month</li>
+          <li>Ideal for multi-threaded initiatives or evolving priorities</li>
         </ul>
 
         <h3>
           2. <strong>Project-Based Engagements</strong>
         </h3>
-        <p>For defined goals and measurable outcomes</p>
+        <p>For defined goals and outcomes</p>
         <ul>
-          <li>Clear scope and timeline</li>
-          <li>Great for launching, scaling, or diagnosing key initiatives</li>
-          <li>Pricing reflects value and complexity</li>
+          <li>Scope and timeline locked in upfront</li>
+          <li>
+            Great for product launches, ops improvements, or GTM refinement
+          </li>
         </ul>
 
         <h3>
-          3. <strong>Hourly Engagements (With Scope)</strong>
+          3. <strong>Hourly Engagements (with Scope)</strong>
         </h3>
-        <p>For targeted, short-term needs</p>
+        <p>For short-term or quick-turn needs</p>
         <ul>
-          <li>Billed hourly with a clearly defined scope</li>
-          <li>Ideal for quick-turn deliverables or advisory sessions</li>
-          <li>Fast, transparent, and frictionless</li>
+          <li>Billed hourly with a clear boundary and outcome</li>
+          <li>Ideal for strategic sessions, prep, or second-opinion reviews</li>
         </ul>
 
         <h3>
           4. <strong>Custom Engagements</strong>
         </h3>
-        <p>Let’s get creative</p>
+        <p>Let’s design the right fit</p>
         <ul>
-          <li>Open to sprints, equity models, hybrid setups, or advisory boards</li>
-          <li>If you have something different in mind, I’m all ears</li>
+          <li>
+            Open to equity models, advisory boards, design sprints, or hybrid
+            setups
+          </li>
+          <li>If you have something unique in mind—I’m listening</li>
         </ul>
       </div>
 
@@ -110,5 +179,5 @@ export default function StrategicAdvisoryPage() {
         </Link>
       </div>
     </div>
-  )
+  );
 }
