@@ -58,8 +58,8 @@ export default function StrategicAdvisoryPage() {
         </ul>
         <hr />
 
-        <h2>Contract Formats at Open Tee</h2>
-        <p>We offer flexible ways to collaborate depending on your needs:</p>
+        <h2>Typical Contract Formats</h2>
+        <p>I offer flexible ways to collaborate depending on your needs:</p>
 
         <h3>
           1. <strong>Retainer Engagements</strong>
