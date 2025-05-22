@@ -4,8 +4,9 @@ import {
   ChevronRight,
   Target,
   Cog,
-  Handshake,
   Compass,
+  Banknote,
+  Handshake,
 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
@@ -70,7 +71,7 @@ export default function Home() {
             <div className="space-y-2 max-w-4xl mx-auto">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">How I Help</h2>
               <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl">
-                Hands-on advisory for the challenges that keep you up at night.
+                High-leverage support for teams that are building, scaling, or evolving.
               </p>
             </div>
           </div>
@@ -80,25 +81,31 @@ export default function Home() {
                 icon: Target,
                 title: "Go-to-Market Optimization",
                 description:
-                  "Go-to-market isn\u2019t about doing more\u2014it\u2019s about doing what matters most. I help teams uncover the bottlenecks and overlooked leverage points that accelerate growth without draining resources or distracting the team.",
+                  "Go-to-market isn\u2019t about doing more\u2014it\u2019s about doing what matters most. I help teams uncover bottlenecks and unlock leverage in their growth motion—from positioning to sales process to team focus—so you can grow efficiently without burning out your runway.",
               },
               {
                 icon: Cog,
                 title: "Operational Strategy",
                 description:
-                  "Most teams don't fail from lack of effort—they fail from friction. Whether it's org design, process clutter, or unclear ownership, I help you remove the blockers so your systems can scale with intention.",
-              },
-              {
-                icon: Handshake,
-                title: "Executive Transitions & Negotiations",
-                description:
-                  "Career inflection points are high-stakes—and often high-noise. I bring structure, insight, and strategy to help ambitious professionals navigate transitions with clarity and confidence.",
+                  "Most teams don’t fail from lack of ambition—they fail from friction. Whether it’s org design, process clutter, or decision-making gaps, I help streamline how your company runs so you can scale without chaos.",
               },
               {
                 icon: Compass,
                 title: "Product Strategy",
                 description:
-                  "Building product is easy. Building the right product is where things break. I help you align roadmap, feedback, and business outcomes so your team makes smarter bets—and fewer avoidable detours.",
+                  "Building the right product means more than shipping fast. I help align product decisions with customer insight, business priorities, and internal capacity—so your roadmap reflects what actually moves the business forward.",
+              },
+              {
+                icon: Banknote,
+                title: "Organizational Planning & Fundraising",
+                description:
+                  "Growth creates pressure. So do funding rounds. I work with founders and execs to align the org, clarify roles, sharpen pitch materials, and prep for what investors will actually care about—internally and externally.",
+              },
+              {
+                icon: Handshake,
+                title: "Executive Transitions & Negotiations",
+                description:
+                  "Career-defining moves deserve clarity, not guesswork. From compensation strategy to role transitions, I help leaders make confident decisions and navigate inflection points with structure, confidence, and smart positioning.",
               },
             ].map((service, index) => (
               <div key={index} className="group">
