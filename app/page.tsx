@@ -27,7 +27,7 @@ export default function Home() {
               <div className="pt-4 flex justify-center md:justify-start">
                 <Link href="/contact">
                   <Button className="bg-slate-900 hover:bg-slate-800">
-                    I HELP LEADERS BRIDGE STRATEGY AND EXECUTION
+                    LET'S BUILD WHAT MATTERS
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
                 </Link>
