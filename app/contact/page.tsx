@@ -102,7 +102,7 @@ export default function ContactPage() {
                   <SelectItem value="gtm">Go-to-Market Optimization</SelectItem>
                   <SelectItem value="operations">Operational Strategy</SelectItem>
                   <SelectItem value="executive">Executive Transitions & Negotiations</SelectItem>
-                  <SelectItem value="other">Something else</SelectItem>
+                  <SelectItem value="product">Product Strategy</SelectItem>
                 </SelectContent>
               </Select>
             </div>

@@ -5,6 +5,7 @@ import {
   Target,
   Cog,
   Handshake,
+  Compass,
 } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
@@ -78,19 +79,25 @@ export default function Home() {
                 icon: Target,
                 title: "Go-to-Market Optimization",
                 description:
-                  "Refining your GTM motion for efficiency and scale. From customer acquisition cost reduction to sales process optimization—I help you find the leverage points that compound growth without burning through runway.",
+                  "Go-to-market isn\u2019t about doing more\u2014it\u2019s about doing what matters most. I help teams uncover the bottlenecks and overlooked leverage points that accelerate growth without draining resources or distracting the team.",
               },
               {
                 icon: Cog,
                 title: "Operational Strategy",
                 description:
-                  "Diagnosing and fixing the operational inefficiencies that slow you down. Whether it's org design, process optimization, or resource allocation—I help you build systems that scale with intention.",
+                  "Most teams don't fail from lack of effort—they fail from friction. Whether it's org design, process clutter, or unclear ownership, I help you remove the blockers so your systems can scale with intention.",
               },
               {
                 icon: Handshake,
                 title: "Executive Transitions & Negotiations",
                 description:
-                  "Career-defining moves require strategic thinking. From compensation negotiations to role transitions, I help ambitious professionals navigate inflection points with clarity and confidence.",
+                  "Career inflection points are high-stakes—and often high-noise. I bring structure, insight, and strategy to help ambitious professionals navigate transitions with clarity and confidence.",
+              },
+              {
+                icon: Compass,
+                title: "Product Strategy",
+                description:
+                  "Building product is easy. Building the right product is where things break. I help you align roadmap, feedback, and business outcomes so your team makes smarter bets—and fewer avoidable detours.",
               },
             ].map((service, index) => (
               <div key={index} className="group">
