@@ -6,7 +6,7 @@ import SubstackLogo from "@/components/icons/substack-logo"
 export default function SiteFooter() {
   return (
     <footer className="w-full border-t py-6 md:py-8">
-      <div className="container flex flex-col md:flex-row justify-between items-center gap-4 md:gap-0">
+        <div className="container mx-auto flex flex-col md:flex-row justify-between items-center gap-4 md:gap-0 px-6 md:px-8">
         <div className="flex flex-col items-center md:items-start gap-1 text-center md:text-left text-sm text-muted-foreground">
           <span>
             Based in Michigan <span aria-hidden="true" className="mx-1">&middot;</span> Working globally
