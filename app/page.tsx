@@ -23,7 +23,7 @@ export default function Home() {
                 Strategy That Actually Ships
               </h1>
               <p className="text-gray-500 md:text-xl max-w-[600px]">
-                For founders and executives who refuse to let good strategy die in PowerPoint
+                For founders and executives who refuse to let good strategy die in a slide deck.
               </p>
               <div className="pt-4 flex justify-center md:justify-start">
                 <Link href="/contact">

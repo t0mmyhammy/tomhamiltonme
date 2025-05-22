@@ -10,7 +10,7 @@ const inter = Inter({ subsets: ["latin"] })
 export const metadata = {
   title: "Tom Hamilton | Strategic Advisory",
   description:
-    "Strategy that actually ships. For founders and executives who refuse to let good strategy die in PowerPoint.",
+    "Strategy that actually ships. For founders and executives who refuse to let good strategy die in a slide deck.",
     generator: 'v0.dev'
 }
 
