@@ -14,7 +14,7 @@ export default function Home() {
     <div className="flex flex-col min-h-screen">
 
       {/* Hero Section */}
-      <section className="w-full py-12 md:py-24 lg:py-32 bg-white">
+      <section className="w-full py-8 md:py-16 lg:py-20 bg-white">
         <div className="container mx-auto px-4 md:px-6 max-w-7xl">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center justify-items-center">
             <div className="flex flex-col space-y-4 text-center md:text-left">
@@ -43,7 +43,7 @@ export default function Home() {
       </section>
 
       {/* Value Proposition Section */}
-      <section className="w-full py-12 md:py-24 bg-slate-50">
+      <section className="w-full py-8 md:py-16 bg-slate-50">
         <div className="container mx-auto px-4 md:px-6 max-w-7xl">
           <div className="flex flex-col items-center space-y-4 text-center">
             <div className="space-y-2 max-w-4xl mx-auto">
