@@ -2,7 +2,6 @@ import Link from "next/link"
 import { ArrowRight, ChevronRight } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
-import NewsletterSignup from "@/components/newsletter-signup"
 
 export default function Home() {
   return (
@@ -212,13 +211,17 @@ export default function Home() {
         <div className="container mx-auto px-4 md:px-6 max-w-7xl">
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center max-w-6xl mx-auto">
             <div className="space-y-4">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Career Clarity Updates</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Let's Talk Strategy</h2>
               <p className="text-gray-300 md:text-xl">
-                Strategic decision-making, career navigation, and behind-the-scenes lessons from advising
-                high-performing teams. For ambitious professionals ready to level up.
+                Working on something challenging? Whether it's go-to-market optimization, operational efficiency,
+                or a career transition—I'm here to help.
               </p>
             </div>
-            <NewsletterSignup />
+            <Link href="/contact" className="w-full">
+              <Button className="w-full bg-white text-slate-900 hover:bg-gray-200 h-12 transition-all duration-200">
+                Start the Conversation
+              </Button>
+            </Link>
           </div>
         </div>
       </section>

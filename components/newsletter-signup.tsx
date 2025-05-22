@@ -36,7 +36,7 @@ export default function NewsletterSignup() {
       {isSuccess ? (
         <div className="p-6 bg-green-900/20 rounded-lg flex items-center space-x-3 transition-all duration-300 animate-fadeIn">
           <CheckCircle className="h-6 w-6 text-green-300" />
-          <p className="text-green-300 font-medium">Thanks for subscribing! Check your inbox to confirm your email.</p>
+          <p className="text-green-300 font-medium">Thanks for reaching out! I'll be in touch soon.</p>
         </div>
       ) : (
         <form onSubmit={handleSubmit} className="space-y-3">
@@ -54,7 +54,7 @@ export default function NewsletterSignup() {
             disabled={isSubmitting}
             className="w-full bg-white text-slate-900 hover:bg-gray-200 h-12 transition-all duration-200"
           >
-            {isSubmitting ? "Subscribing..." : "Get Updates"}
+            {isSubmitting ? "Sending..." : "Start the Conversation"}
           </Button>
         </form>
       )}

@@ -3,12 +3,12 @@ import NewsletterSignup from "@/components/newsletter-signup"
 export default function NewsletterPage() {
   return (
     <div className="container max-w-4xl py-12 md:py-16">
-      <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8">Career Clarity Updates</h1>
+      <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8">Let's Talk Strategy</h1>
 
       <div className="prose prose-slate max-w-none mb-8">
         <p className="lead">
-          Join 2,000+ ambitious professionals getting weekly insights on career clarity, strategic decision-making, and
-          lessons from the executive suite.
+          Working on something challenging? Whether it's go-to-market optimization, operational efficiency, or a career
+          transition—I'm here to help.
         </p>
 
         <h2>What You'll Get</h2>
@@ -31,7 +31,7 @@ export default function NewsletterPage() {
       </div>
 
       <div className="bg-slate-100 p-6 rounded-lg">
-        <h2 className="text-xl font-bold mb-4">Subscribe to Career Clarity Updates</h2>
+        <h2 className="text-xl font-bold mb-4">Start the Conversation</h2>
         <div className="max-w-md">
           <NewsletterSignup />
         </div>
