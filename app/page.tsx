@@ -22,15 +22,15 @@ export default function Home() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 items-center justify-items-center">
             <div className="flex flex-col space-y-4 text-center md:text-left animate-fadeSlideIn">
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl lg:text-6xl">
-                Strategy That Actually Ships
+                Clarity. Action. Results.
               </h1>
               <p className="text-gray-500 md:text-xl max-w-[600px]">
-                For founders and executives who refuse to let good strategy die in a slide deck.
+                I help founders and execs bridge the gap between big ideas and what actually gets built.
               </p>
               <div className="pt-4 flex justify-center md:justify-start">
                 <Link href="/contact">
                   <Button className="bg-slate-900 hover:bg-slate-800 transition-transform duration-200 hover:-translate-y-0.5">
-                    LET'S BUILD WHAT MATTERS
+                    Let’s Build What Matters
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
                 </Link>
