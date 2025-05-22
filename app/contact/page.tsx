@@ -61,8 +61,7 @@ export default function ContactPage() {
         <div className="bg-green-50 border border-green-200 rounded-lg p-6">
           <h2 className="text-xl font-bold text-green-800 mb-2">Message Received</h2>
           <p className="text-green-700">
-            Thanks for reaching out! I'll review your information and get back to you within 1-2 business days to
-            schedule our conversation.
+            Thanks for contacting me - I'll be in touch within 1-2 business days
           </p>
         </div>
       ) : (
@@ -70,17 +69,24 @@ export default function ContactPage() {
           <form onSubmit={handleSubmit} className="space-y-6 bg-slate-50 p-6 rounded-lg">
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
               <div className="space-y-2">
-                <label htmlFor="name" className="text-sm font-medium">
-                  Name
+                <label htmlFor="firstName" className="text-sm font-medium">
+                  First name
                 </label>
-                <Input id="name" name="name" required />
+                <Input id="firstName" name="firstName" required />
               </div>
               <div className="space-y-2">
-                <label htmlFor="email" className="text-sm font-medium">
-                  Email
+                <label htmlFor="lastName" className="text-sm font-medium">
+                  Last name
                 </label>
-                <Input id="email" name="email" type="email" required />
+                <Input id="lastName" name="lastName" required />
               </div>
+            </div>
+
+            <div className="space-y-2">
+              <label htmlFor="email" className="text-sm font-medium">
+                Email
+              </label>
+              <Input id="email" name="email" type="email" required />
             </div>
 
             <div className="space-y-2">
@@ -88,6 +94,13 @@ export default function ContactPage() {
                 Company
               </label>
               <Input id="company" name="company" />
+            </div>
+
+            <div className="space-y-2">
+              <label htmlFor="linkedin" className="text-sm font-medium">
+                LinkedIn (optional)
+              </label>
+              <Input id="linkedin" name="linkedin" type="url" />
             </div>
 
             <div className="space-y-2">
@@ -122,9 +135,11 @@ export default function ContactPage() {
 
             {error && <div className="text-red-600 text-sm">{error}</div>}
 
-            <Button type="submit" className="bg-slate-900 hover:bg-slate-800" disabled={isSubmitting}>
-              {isSubmitting ? "Sending..." : "Submit"}
-            </Button>
+            <div className="text-center">
+              <Button type="submit" className="bg-slate-900 hover:bg-slate-800" disabled={isSubmitting}>
+                {isSubmitting ? "Sending..." : "Submit"}
+              </Button>
+            </div>
           </form>
         </div>
       )}
