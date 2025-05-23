@@ -23,8 +23,8 @@ export async function POST(request: Request) {
     await transporter.sendMail({
       from: process.env.SMTP_FROM || process.env.SMTP_USER,
       to: process.env.CONTACT_TO || process.env.SMTP_USER,
-      subject: `New contact form submission from ${firstName} ${lastName}`,
-      text: `First name: ${firstName}\nLast name: ${lastName}\nEmail: ${email}\nLinkedIn: ${linkedin}\nCompany: ${company}\nInterest: ${interest}\n\n${message}`,
+      subject: `New Site Inquiry – ${interest} Interest from ${firstName} ${lastName}`,
+      text: `Name: ${firstName} ${lastName}\nEmail: ${email}\nCompany: ${company || 'Not provided'}\nLinkedIn: ${linkedin || 'Not provided'}\nInterest: ${interest}\nMessage: "${message}"\n`,
     })
 
     return NextResponse.json({ success: true })

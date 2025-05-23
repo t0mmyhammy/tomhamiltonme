@@ -59,9 +59,9 @@ export default function ContactPage() {
 
       {isSuccess ? (
         <div className="bg-green-50 border border-green-200 rounded-lg p-6">
-          <h2 className="text-xl font-bold text-green-800 mb-2">Message Received</h2>
+          <h2 className="text-xl font-bold text-green-800 mb-2">Message received. Let's get going.</h2>
           <p className="text-green-700">
-            Thanks for contacting me - I'll be in touch within 1-2 business days
+            Thanks for reaching out—I'll be in touch within a day or two so we can start making progress.
           </p>
         </div>
       ) : (

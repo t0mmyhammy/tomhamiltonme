@@ -7,7 +7,7 @@ import {
   Target,
   Cog,
   Compass,
-  Sitemap,
+  Network,
   Banknote,
   Handshake,
 } from "lucide-react"
@@ -31,7 +31,7 @@ export default function Home() {
               <div className="pt-4 flex justify-center md:justify-start">
                 <Link href="/contact">
                   <Button className="bg-slate-900 hover:bg-slate-800 transition-transform duration-200 hover:-translate-y-0.5">
-                    Let’s Build What Matters
+                    Let's Build What Matters
                     <ArrowRight className="ml-2 h-4 w-4" />
                   </Button>
                 </Link>
@@ -59,13 +59,13 @@ export default function Home() {
                 Wondering how to build momentum or hit your goals?
               </h2>
               <p className="mx-auto max-w-[700px] text-xl font-semibold mt-6">
-                Stop wondering. Start knowing. Let’s do something about it.
+                Stop wondering. Start knowing. Let's do something about it.
               </p>
               <p className="mx-auto max-w-[700px] text-gray-500 md:text-lg mt-4">
                 Strategy without execution is just expensive planning. I work with founders, execs, and scaling teams to turn clarity into traction—whether that means reworking a go-to-market plan, fixing operational friction, or navigating a high-stakes career move.
               </p>
               <p className="mx-auto max-w-[700px] text-gray-500 md:text-lg mt-4">
-                My approach is hands-on. We don’t just talk—we build. Together, we’ll design systems that scale, create accountability that lasts, and use tools like AI where they actually make a difference. No fluff. Just focused work that drives results.
+                My approach is hands-on. We don't just talk—we build. Together, we'll design systems that scale, create accountability that lasts, and use tools like AI where they actually make a difference. No fluff. Just focused work that drives results.
               </p>
             </div>
           </div>
@@ -89,13 +89,13 @@ export default function Home() {
                 icon: Target,
                 title: "Go-to-Market Optimization",
                 description:
-                  "Go-to-market isn’t about doing more—it’s about doing what matters most. I help teams uncover bottlenecks and unlock leverage in their growth motion—from positioning to sales process to team focus—so you can grow efficiently without burning out your runway.",
+                  "Go-to-market isn't about doing more—it's about doing what matters most. I help teams uncover bottlenecks and unlock leverage in their growth motion—from positioning to sales process to team focus—so you can grow efficiently without burning out your runway.",
               },
               {
                 icon: Cog,
                 title: "Operational Strategy",
                 description:
-                  "Most teams don’t fail from lack of ambition—they fail from friction. Whether it’s org design, process clutter, or decision-making gaps, I help streamline how your company runs so you can scale without chaos.",
+                  "Most teams don't fail from lack of ambition—they fail from friction. Whether it's org design, process clutter, or decision-making gaps, I help streamline how your company runs so you can scale without chaos.",
               },
               {
                 icon: Compass,
@@ -104,7 +104,7 @@ export default function Home() {
                   "Building the right product means more than shipping fast. I help align product decisions with customer insight, business priorities, and internal capacity—so your roadmap reflects what actually moves the business forward.",
               },
               {
-                icon: Sitemap,
+                icon: Network,
                 title: "Organizational Planning",
                 description:
                   "When growth hits, structure starts to matter. I work with leadership teams to clarify roles, level responsibilities, and design orgs that scale—without adding unnecessary layers or creating confusion.",
@@ -136,7 +136,25 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Process, Results, Newsletter sections unchanged… */}
+      {/* Newsletter Section */}
+      <section className="w-full py-12 md:py-24 bg-slate-900 text-white">
+        <div className="container mx-auto px-4 md:px-6 max-w-7xl">
+          <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center max-w-6xl mx-auto">
+            <div className="space-y-4">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Let's Talk Strategy</h2>
+              <p className="text-gray-300 md:text-xl">
+                Working on something challenging? Whether it's go-to-market optimization, operational efficiency,
+                or a career transition—I'm here to help.
+              </p>
+            </div>
+            <Link href="/contact" className="w-full">
+              <Button className="w-full bg-white text-slate-900 hover:bg-gray-200 h-12 transition-all duration-200">
+                Start the Conversation
+              </Button>
+            </Link>
+          </div>
+        </div>
+      </section>
     </div>
   )
 }
