@@ -5,6 +5,7 @@ import {
   Target,
   Cog,
   Compass,
+  Sitemap,
   Banknote,
   Handshake,
 } from "lucide-react"
@@ -77,11 +78,11 @@ export default function Home() {
             <div className="space-y-2 max-w-4xl mx-auto">
               <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">How I Help</h2>
               <p className="mx-auto max-w-[700px] text-gray-500 md:text-xl">
-                High-leverage support for teams that are building, scaling, or evolving.
+                High-leverage support for teams (and individuals) that are building, scaling, or evolving.
               </p>
             </div>
           </div>
-          <div className="grid grid-cols-1 md:grid-cols-6 gap-6 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 max-w-6xl mx-auto">
             {[
               {
                 icon: Target,
@@ -102,33 +103,34 @@ export default function Home() {
                   "Building the right product means more than shipping fast. I help align product decisions with customer insight, business priorities, and internal capacity—so your roadmap reflects what actually moves the business forward.",
               },
               {
-                icon: Banknote,
-                title: "Organizational Planning & Fundraising",
+                icon: Sitemap,
+                title: "Organizational Planning",
                 description:
-                  "Growth creates pressure. So do funding rounds. I work with founders and execs to align the org, clarify roles, sharpen pitch materials, and prep for what investors will actually care about—internally and externally.",
+                  "When growth hits, structure starts to matter. I work with leadership teams to clarify roles, level responsibilities, and design orgs that scale—without adding unnecessary layers or creating confusion.",
+              },
+              {
+                icon: Banknote,
+                title: "Fundraising Readiness",
+                description:
+                  "Fundraising is part pitch, part posture. I help founders sharpen their story, pressure-test their metrics, and prep for what investors will actually care about—internally and externally.",
               },
               {
                 icon: Handshake,
-                title: "Executive Transitions & Negotiations",
+                title: "Individual Career Transitions & Negotiations",
                 description:
-                  "Career-defining moves deserve clarity, not guesswork. From compensation strategy to role transitions, I help leaders make confident decisions and navigate inflection points with structure, confidence, and smart positioning.",
+                  "Career-defining moves deserve clarity, not guesswork. Whether you're stepping into a new role, negotiating comp, or weighing a shift, I help you move forward with structure, confidence, and smart positioning.",
               },
-            ].map((service, index) => {
-              let colStart = "";
-              if (index === 3) colStart = "md:col-start-2";
-              if (index === 4) colStart = "md:col-start-4";
-              return (
-                <div key={index} className={cn("group md:col-span-2", colStart)}>
-                  <Card className="h-full transition-all duration-300 hover:shadow-lg">
-                    <CardContent className="p-6 flex flex-col items-center text-center">
-                      <service.icon className="h-10 w-10 mb-4 transform transition-transform duration-300 group-hover:scale-110" />
-                      <h3 className="text-xl font-bold mb-2">{service.title}</h3>
-                      <p className="text-gray-500">{service.description}</p>
-                    </CardContent>
-                  </Card>
-                </div>
-              );
-            })}
+            ].map((service, index) => (
+              <div key={index} className="group">
+                <Card className="h-full transition-all duration-300 hover:shadow-lg">
+                  <CardContent className="p-6 flex flex-col items-center text-center">
+                    <service.icon className="h-10 w-10 mb-4 transform transition-transform duration-300 group-hover:scale-110" />
+                    <h3 className="text-xl font-bold mb-2">{service.title}</h3>
+                    <p className="text-gray-500">{service.description}</p>
+                  </CardContent>
+                </Card>
+              </div>
+            ))}
           </div>
         </div>
       </section>
