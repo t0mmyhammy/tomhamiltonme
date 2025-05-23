@@ -6,7 +6,7 @@ export default function AboutPage() {
       <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-12">
         <div className="col-span-1">
           <div className="relative w-full aspect-[3/4] overflow-hidden rounded-lg shadow-lg">
-            <img src="/images/profile.png" alt="Tom Hamilton" className="object-cover w-full h-full grayscale" />
+            <img src="/images/FamilyHHWalking2.jpg" alt="Hamilton family walking" className="object-cover w-full h-full grayscale" />
           </div>
         </div>
         <div className="col-span-2 flex flex-col justify-center">
