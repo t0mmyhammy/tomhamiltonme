@@ -52,19 +52,17 @@ export default function Home() {
           <div className="flex flex-col items-center space-y-4 text-center">
             <div className="space-y-2 max-w-4xl mx-auto">
               <h2 className="text-2xl font-bold tracking-tighter sm:text-3xl md:text-4xl">
-                Wondering if your ideas will actually work?
+                Wondering how to build momentum or hit your goals?
               </h2>
               <p className="mx-auto max-w-[700px] text-xl font-semibold mt-6">
                 Stop wondering. Start knowing. Let&rsquo;s do something about it.
               </p>
               <p className="mx-auto max-w-[700px] text-gray-500 md:text-lg mt-4">
-                Strategy without execution is just expensive planning. I work with founders, executives, and scaling
-                teams to close that gap—turning clarity into operational reality.
+                Strategy without execution is just expensive planning. I work with founders, execs, and scaling
+                teams to turn clarity into traction—whether that means reworking a go-to-market plan, fixing operational friction, or navigating a high-stakes career move.
               </p>
               <p className="mx-auto max-w-[700px] text-gray-500 md:text-lg mt-4">
-                My approach is hands-on. We don&rsquo;t just talk strategy—we build. Together, we&rsquo;ll design solutions,
-                systems, and workflows that actually scale. No fluff. Just focused work that moves the needle, helps you
-                grow, and builds new habits around execution, accountability, and smart use of AI.
+                My approach is hands-on. We don&rsquo;t just talk—we build. Together, we&rsquo;ll design systems that scale, create accountability that lasts, and use tools like AI where they actually make a difference. No fluff. Just focused work that drives results.
               </p>
             </div>
           </div>
