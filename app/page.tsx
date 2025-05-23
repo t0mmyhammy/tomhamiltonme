@@ -136,20 +136,91 @@ export default function Home() {
         </div>
       </section>
 
+      {/* How I Work Section */}
+      <section className="w-full py-12 md:py-24 bg-slate-50">
+        <div className="container mx-auto px-4 md:px-6 max-w-7xl">
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl text-center mb-2">How I Work</h2>
+          <p className="text-xl text-center text-gray-500 mb-10">A momentum-first approach that turns clarity into action—and action into results.</p>
+          <ol className="space-y-8 max-w-3xl mx-auto">
+            <li className="flex items-start gap-4">
+              <span className="flex items-center justify-center h-10 w-10 rounded-full bg-slate-900 text-white font-bold text-lg">1</span>
+              <div>
+                <span className="font-semibold">Immersion & Insight</span>
+                <div className="text-gray-600">I dig in quickly—listening, observing, and asking sharp questions to find where leverage lives.</div>
+              </div>
+            </li>
+            <li className="flex items-start gap-4">
+              <span className="flex items-center justify-center h-10 w-10 rounded-full bg-slate-900 text-white font-bold text-lg">2</span>
+              <div>
+                <span className="font-semibold">Co-Creating Clarity</span>
+                <div className="text-gray-600">Together, we build simple tools and frameworks that help you make faster, better decisions.</div>
+              </div>
+            </li>
+            <li className="flex items-start gap-4">
+              <span className="flex items-center justify-center h-10 w-10 rounded-full bg-slate-900 text-white font-bold text-lg">3</span>
+              <div>
+                <span className="font-semibold">Action Planning</span>
+                <div className="text-gray-600">We turn that clarity into a focused plan with clear owners, timelines, and priorities.</div>
+              </div>
+            </li>
+            <li className="flex items-start gap-4">
+              <span className="flex items-center justify-center h-10 w-10 rounded-full bg-slate-900 text-white font-bold text-lg">4</span>
+              <div>
+                <span className="font-semibold">Embedded Execution</span>
+                <div className="text-gray-600">I work alongside your team to push through the messy middle—no handoffs, no fluff.</div>
+              </div>
+            </li>
+            <li className="flex items-start gap-4">
+              <span className="flex items-center justify-center h-10 w-10 rounded-full bg-slate-900 text-white font-bold text-lg">5</span>
+              <div>
+                <span className="font-semibold">Ongoing Calibration</span>
+                <div className="text-gray-600">We check in, adjust, and keep moving—building momentum as we learn what works.</div>
+              </div>
+            </li>
+          </ol>
+        </div>
+      </section>
+
+      {/* Real Results Testimonials Section */}
+      <section className="w-full py-12 md:py-24 bg-white">
+        <div className="container mx-auto px-4 md:px-6 max-w-7xl">
+          <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-2 text-center">Real Results</h2>
+          <p className="text-xl text-center text-gray-500 mb-8">The outcomes that matter—measurable impact, not just activity.</p>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
+            <div className="border rounded-lg p-6 bg-slate-50 text-gray-700 italic flex items-center justify-center">
+              "We were burning too much on acquisition and not scaling fast enough—until Tom stepped in. In six months, our CAC dropped 30% and our GTM strategy finally clicked. But the real value? Tom didn't just fix sales—he challenged how we worked, pushed us on accountability, and helped shape a culture of execution. He saw opportunities across the business we didn't even know we were missing."
+            </div>
+            <div className="border rounded-lg p-6 bg-slate-50 text-gray-700 italic flex items-center justify-center">
+              "Our ops were messy and expensive. Tom helped us rebuild the playbook, improve on-time delivery, and cut costs enough to expand a national retail partnership. What stood out was how quickly he called out our blind spots and built trust on the ground. He didn't stay in his lane—he raised the bar across the board and held us to it."
+            </div>
+            <div className="border rounded-lg p-6 bg-slate-50 text-gray-700 italic flex items-center justify-center">
+              "I went into the offer conversation feeling uncertain. With Tom's help, I walked out with $90k more and a clear path on equity. But more than the comp bump, he helped me show up differently—more strategic, more clear. He asked hard questions early, helped me think bigger, and even challenged how I defined my next chapter. That kind of coaching sticks."
+            </div>
+          </div>
+          <div className="flex justify-center mb-4">
+            <a href="/results">
+              <button className="border border-slate-900 rounded-md px-6 py-3 font-medium text-slate-900 hover:bg-slate-100 transition-all duration-200 flex items-center gap-2">
+                Read More Case Studies
+                <span aria-hidden="true">→</span>
+              </button>
+            </a>
+          </div>
+        </div>
+      </section>
+
       {/* Newsletter Section */}
       <section className="w-full py-12 md:py-24 bg-slate-900 text-white">
         <div className="container mx-auto px-4 md:px-6 max-w-7xl">
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center max-w-6xl mx-auto">
             <div className="space-y-4">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Let's Talk Strategy</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Ready to Build Momentum?</h2>
               <p className="text-gray-300 md:text-xl">
-                Working on something challenging? Whether it's go-to-market optimization, operational efficiency,
-                or a career transition—I'm here to help.
+                Whether it's go-to-market clarity, operational friction, or a career move you want to get right—let's work through it together.
               </p>
             </div>
             <Link href="/contact" className="w-full">
               <Button className="w-full bg-white text-slate-900 hover:bg-gray-200 h-12 transition-all duration-200">
-                Start the Conversation
+                Let's Get Going
               </Button>
             </Link>
           </div>

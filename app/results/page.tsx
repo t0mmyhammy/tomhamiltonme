@@ -9,7 +9,7 @@ export default function ResultsPage() {
         <p>The outcomes that matter—measurable impact, not just activity.</p>
       </div>
 
-      <div className="space-y-10">
+      <div className="space-y-10" id="case-studies">
         {[
           {
             title: "PropTech GTM Optimization",
@@ -136,6 +136,25 @@ export default function ResultsPage() {
           </Card>
         ))}
       </div>
+
+      {/* Full-width CTA Section */}
+      <section className="w-full py-12 md:py-24 bg-slate-900 text-white mt-16">
+        <div className="w-full flex flex-col items-center justify-center px-0">
+          <div className="w-full bg-slate-900 rounded-lg p-8 md:p-12 flex flex-col md:flex-row items-center justify-between gap-8 shadow-lg">
+            <div>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-2">Ready to Build Momentum?</h2>
+              <p className="text-gray-300 md:text-xl">
+                Whether it's go-to-market clarity, operational friction, or a career move you want to get right—let's work through it together.
+              </p>
+            </div>
+            <a href="/contact" className="w-full md:w-auto">
+              <button className="bg-white text-slate-900 hover:bg-gray-200 h-12 px-12 min-w-[180px] rounded-md font-medium text-base transition-all duration-200">
+                Let's Get Going
+              </button>
+            </a>
+          </div>
+        </div>
+      </section>
     </div>
   )
 }

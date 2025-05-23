@@ -19,13 +19,13 @@ export default function AboutPage() {
       <div className="prose prose-slate max-w-none">
         <h2>My Story</h2>
         <p>
-          I’ve always been drawn to figuring things out—from cracking open computers at age 7 (without instructions) to
-          leading operations at fast-scaling startups. Even back then, I didn’t just want to understand how things
-          worked—I wanted to make them better. That mindset’s stuck with me through every chapter of my career.
+          I've always been drawn to figuring things out—from cracking open computers at age 7 (without instructions) to
+          leading operations at fast-scaling startups. Even back then, I didn't just want to understand how things
+          worked—I wanted to make them better. That mindset's stuck with me through every chapter of my career.
         </p>
         <p>
           I grew up in Michigan, made stops in Chicago and Austin, and eventually made my way home. Along the way, I
-          built a life with my incredible wife and daughter, and carved out a path that’s let me stay curious, stay
+          built a life with my incredible wife and daughter, and carved out a path that's let me stay curious, stay
           useful, and keep learning—especially through technology.
         </p>
         <p>
@@ -46,12 +46,12 @@ export default function AboutPage() {
           pattern recognition, and a bias toward action.
         </p>
         <p>
-          Clients don’t come to me for a slide deck. They come to me when they’re stuck—when decisions feel murky,
-          momentum’s slowed, or the team’s overloaded. I work side-by-side to get traction quickly and help teams build
+          Clients don't come to me for a slide deck. They come to me when they're stuck—when decisions feel murky,
+          momentum's slowed, or the team's overloaded. I work side-by-side to get traction quickly and help teams build
           in ways that scale.
         </p>
         <p>
-          I believe real leadership means clarity, humility, and extreme accountability. Titles don’t build
+          I believe real leadership means clarity, humility, and extreme accountability. Titles don't build
           trust—consistency does. And the best leaders create leverage by making others smarter, more focused, and more
           confident.
         </p>
@@ -60,16 +60,16 @@ export default function AboutPage() {
         <ul>
           <li>Former McKinsey consultant</li>
           <li>Operator at multiple venture-backed startups</li>
-          <li>Advisor to 30+ companies across tech, services, and consumer</li>
+          <li>Advisor to founders and companies across tech, services, and consumer</li>
           <li>Based in Michigan, partnering with teams globally</li>
           <li>Always learning—especially where tech meets people</li>
         </ul>
 
         <h2>Outside of Work</h2>
-        <p>Life’s not just work. I find joy in the details:</p>
+        <p>Life's not just work. I find joy in the details:</p>
         <ul>
           <li>
-            Golf, in every form—watching it, playing it, and governing an (un)official “major” known as the Hammy
+            Golf, in every form—watching it, playing it, and governing an (un)official "major" known as the Hammy
             Open
           </li>
           <li>University of Michigan football—I bleed maize and blue</li>
