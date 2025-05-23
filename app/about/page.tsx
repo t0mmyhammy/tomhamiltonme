@@ -11,44 +11,75 @@ export default function AboutPage() {
         </div>
         <div className="col-span-2 flex flex-col justify-center">
           <p className="text-xl text-gray-600">
-            Former McKinsey consultant, startup operator, and trusted advisor to founders and executives.
+            Proud dad. Relentless builder. Trusted advisor to founders and executives.
           </p>
         </div>
       </div>
 
       <div className="prose prose-slate max-w-none">
-        <h2>Professional Story</h2>
+        <h2>My Story</h2>
         <p>
-          I've worn a lot of hats—former McKinsey consultant, operator at venture-backed startups, and now trusted
-          advisor to founders, executives, and scaling teams.
+          I’ve always been drawn to figuring things out—from cracking open computers at age 7 (without instructions) to
+          leading operations at fast-scaling startups. Even back then, I didn’t just want to understand how things
+          worked—I wanted to make them better. That mindset’s stuck with me through every chapter of my career.
         </p>
         <p>
-          My sweet spot is helping businesses bridge strategy and execution. Whether that's refining a go-to-market
-          plan, diagnosing operational inefficiencies, or structuring more effective org design, I'm not the advisor who
-          sends a deck and disappears. I roll up my sleeves, work side-by-side, and build clarity through action.
+          I grew up in Michigan, made stops in Chicago and Austin, and eventually made my way home. Along the way, I
+          built a life with my incredible wife and daughter, and carved out a path that’s let me stay curious, stay
+          useful, and keep learning—especially through technology.
         </p>
         <p>
-          Clients often tell me I bring calm focus in messy environments and help them move faster without burning out
-          their team. That's because I focus on finding leverage—where minimal effort creates outsize impact.
-        </p>
-
-        <h2>My Approach</h2>
-        <p>
-          Strategy is worthless without execution, and execution without strategy is just motion. I bring a
-          framework-first mindset but gut-check everything through real-world constraints. I prioritize transparency,
-          aligned incentives, and ruthless prioritization.
+          At the University of Michigan, I was pushed to define and teach a leadership course, which forced me into deep
+          introspection and helped me channel a quiet but growing passion: helping people grow into the best version of
+          themselves.
         </p>
         <p>
-          Real leadership is about clarity, integrity, and accountability—delivered with humility. Titles don't build
-          trust. Consistency does. And the best leaders are the ones who make their teams smarter, not just busier.
+          That passion carried me through McKinsey, where I learned how to break down complexity with precision—and
+          eventually into startups, where I learned how to move fast, build trust, and get results when the stakes are
+          high. Now, I get to bring those worlds together.
         </p>
 
-        <h2>Background</h2>
+        <h2>How I Work</h2>
+        <p>
+          I help founders and execs bridge the gap between strategy and execution. Whether it's rethinking a
+          go-to-market plan, untangling operations, or building organizational clarity, I bring sleeves-up support, fast
+          pattern recognition, and a bias toward action.
+        </p>
+        <p>
+          Clients don’t come to me for a slide deck. They come to me when they’re stuck—when decisions feel murky,
+          momentum’s slowed, or the team’s overloaded. I work side-by-side to get traction quickly and help teams build
+          in ways that scale.
+        </p>
+        <p>
+          I believe real leadership means clarity, humility, and extreme accountability. Titles don’t build
+          trust—consistency does. And the best leaders create leverage by making others smarter, more focused, and more
+          confident.
+        </p>
+
+        <h2>My Background</h2>
         <ul>
-          <li>Former McKinsey & Company consultant</li>
-          <li>Operations leader at multiple venture-backed startups</li>
-          <li>Advised 30+ companies from seed stage to growth</li>
-          <li>Based in Michigan, working with teams globally</li>
+          <li>Former McKinsey consultant</li>
+          <li>Operator at multiple venture-backed startups</li>
+          <li>Advisor to 30+ companies across tech, services, and consumer</li>
+          <li>Based in Michigan, partnering with teams globally</li>
+          <li>Always learning—especially where tech meets people</li>
+        </ul>
+
+        <h2>Outside of Work</h2>
+        <p>Life’s not just work. I find joy in the details:</p>
+        <ul>
+          <li>
+            Golf, in every form—watching it, playing it, and governing an (un)official “major” known as the Hammy
+            Open
+          </li>
+          <li>University of Michigan football—I bleed maize and blue</li>
+          <li>
+            Health &amp; fitness—focused on clean eating, getting stronger, and challenging myself to try new things
+          </li>
+          <li>
+            Time with my wife and daughter—drawing with chalk, dancing in the kitchen, and going on slow walks that
+            turn into our favorite memories
+          </li>
         </ul>
       </div>
     </div>
