@@ -112,10 +112,12 @@ export default function ContactPage() {
                   <SelectValue placeholder="Select an option" />
                 </SelectTrigger>
                 <SelectContent>
-                  <SelectItem value="gtm">Go-to-Market Optimization</SelectItem>
-                  <SelectItem value="operations">Operational Strategy</SelectItem>
-                  <SelectItem value="executive">Executive Transitions & Negotiations</SelectItem>
-                  <SelectItem value="product">Product Strategy</SelectItem>
+                  <SelectItem value="gtm">Go-to-Market / Sales</SelectItem>
+                  <SelectItem value="operations">Operations</SelectItem>
+                  <SelectItem value="product">Product</SelectItem>
+                  <SelectItem value="organization">Organization</SelectItem>
+                  <SelectItem value="fundraising">Fundraising</SelectItem>
+                  <SelectItem value="career">Career Transition / Negotiation</SelectItem>
                 </SelectContent>
               </Select>
             </div>
