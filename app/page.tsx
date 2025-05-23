@@ -25,7 +25,7 @@ export default function Home() {
                 Clarity. Action. Results.
               </h1>
               <p className="text-gray-500 md:text-xl max-w-[600px]">
-                I help founders and execs bridge the gap between big ideas and what actually gets built.
+                From scaling teams to navigating career shifts, I help founders and executives move with confidence—and build what matters most.
               </p>
               <div className="pt-4 flex justify-center md:justify-start">
                 <Link href="/contact">
