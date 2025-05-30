@@ -104,7 +104,7 @@ export default function WhatIDoPage() {
       <div className="mt-12 flex justify-center">
         <Link href="/contact">
           <Button className="bg-slate-900 hover:bg-slate-800">
-            Start the Conversation
+            Curious about pricing? Let’s talk options
             <ArrowRight className="ml-2 h-4 w-4" />
           </Button>
         </Link>
