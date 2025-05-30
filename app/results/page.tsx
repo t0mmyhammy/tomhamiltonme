@@ -1,8 +1,11 @@
 import { Card, CardContent } from "@/components/ui/card"
+import Link from "next/link"
+import { Button } from "@/components/ui/button"
 
 export default function ResultsPage() {
   return (
-    <div className="container mx-auto px-4 md:px-6 max-w-4xl py-12 md:py-16">
+    <>
+      <div className="container mx-auto px-4 md:px-6 max-w-4xl py-12 md:py-16">
       <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8">Results</h1>
 
       <div className="prose prose-slate max-w-none mb-10">
@@ -135,26 +138,27 @@ export default function ResultsPage() {
             </CardContent>
           </Card>
         ))}
+        </div>
       </div>
 
       {/* Full-width CTA Section */}
       <section className="w-full py-12 md:py-24 bg-slate-900 text-white mt-16">
-        <div className="w-full flex flex-col items-center justify-center px-0">
-          <div className="w-full bg-slate-900 rounded-lg p-8 md:p-12 flex flex-col md:flex-row items-center justify-between gap-8 shadow-lg">
-            <div>
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl mb-2">Ready to Build Momentum?</h2>
+        <div className="container mx-auto px-4 md:px-6 max-w-7xl">
+          <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center max-w-6xl mx-auto">
+            <div className="space-y-4">
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Ready to Build Momentum?</h2>
               <p className="text-gray-300 md:text-xl">
                 Whether it's go-to-market clarity, operational friction, or a career move you want to get right—let's work through it together.
               </p>
             </div>
-            <a href="/contact" className="w-full md:w-auto">
-              <button className="bg-white text-slate-900 hover:bg-gray-200 h-12 px-12 min-w-[180px] rounded-md font-medium text-base transition-all duration-200">
-                Let's Get Going
-              </button>
-            </a>
+            <Link href="/contact" className="w-full">
+              <Button className="w-full bg-white text-slate-900 hover:bg-gray-200 h-12 transition-all duration-200">
+                Let&apos;s Get Going
+              </Button>
+            </Link>
           </div>
         </div>
       </section>
-    </div>
+    </>
   )
 }
