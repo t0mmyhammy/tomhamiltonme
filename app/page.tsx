@@ -225,7 +225,7 @@ export default function Home() {
             </div>
             <Link href="/contact" className="w-full">
               <Button className="w-full bg-white text-slate-900 hover:bg-gray-200 h-12 transition-all duration-200">
-                Let's Get Going
+                Schedule a Free Consultation
               </Button>
             </Link>
           </div>
