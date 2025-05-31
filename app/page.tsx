@@ -59,7 +59,12 @@ export default function Home() {
                 Wondering how to build momentum or hit your goals?
               </h2>
               <p className="mx-auto max-w-[700px] text-xl font-semibold mt-6">
-                Stop wondering. Start knowing. Let's do something about it.
+                <span className="block sm:inline">
+                  Stop wondering. Start knowing.
+                </span>{" "}
+                <span className="block sm:inline">
+                  Let's do something about it.
+                </span>
               </p>
               <p className="mx-auto max-w-[700px] text-gray-500 md:text-lg mt-4">
                 Strategy without execution is just expensive planning. I work with founders, execs, and scaling teams to turn clarity into traction—whether that means reworking a go-to-market plan, fixing operational friction, or navigating a high-stakes career move.
