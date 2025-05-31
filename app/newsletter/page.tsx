@@ -1,5 +1,11 @@
 import NewsletterSignup from "@/components/newsletter-signup"
 
+export const metadata = {
+  title: "Newsletter | Tom Hamilton",
+  description:
+    "Join Tom Hamilton's newsletter for strategic insights on go-to-market, operational efficiency, and leadership development.",
+}
+
 export default function NewsletterPage() {
   return (
     <div className="container mx-auto px-4 md:px-6 max-w-4xl py-12 md:py-16">

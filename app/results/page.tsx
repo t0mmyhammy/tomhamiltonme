@@ -2,6 +2,12 @@ import { Card, CardContent } from "@/components/ui/card"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 
+export const metadata = {
+  title: "Case Studies & Results",
+  description:
+    "See examples of go-to-market optimization, operational improvements, and executive coaching results delivered by Tom Hamilton.",
+}
+
 export default function ResultsPage() {
   return (
     <>

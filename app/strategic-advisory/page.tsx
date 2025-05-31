@@ -2,6 +2,12 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
 
+export const metadata = {
+  title: "Strategic Advisory Services",
+  description:
+    "Hands-on strategic advisory for startups and executives. Get frameworks and operational support to accelerate growth and execution.",
+}
+
 export default function StrategicAdvisoryPage() {
   return (
     <div className="container mx-auto px-4 md:px-6 max-w-7xl">
