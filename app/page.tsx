@@ -70,7 +70,7 @@ export default function Home() {
                 Strategy without execution is just expensive planning. I work with founders, execs, and scaling teams to turn clarity into traction—whether that means reworking a go-to-market plan, fixing operational friction, or navigating a high-stakes career move.
               </p>
               <p className="mx-auto max-w-[700px] text-gray-500 md:text-lg mt-4">
-                My approach is hands-on. We don't just talk—we build. Together, we'll design systems that scale, create accountability that lasts, and use tools like AI where they actually make a difference. No fluff. Just focused work that drives results.
+                My approach is hands-on. We don't just talk—we build. We'll collaborate to build systems that scale, foster enduring accountability, and apply AI tools where they truly make an impact. No fluff. Just focused work that drives results.
               </p>
             </div>
           </div>
