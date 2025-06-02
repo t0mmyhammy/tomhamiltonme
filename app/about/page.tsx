@@ -1,3 +1,9 @@
+export const metadata = {
+  title: "About Tom Hamilton",
+  description:
+    "Learn about Tom Hamilton's background as a strategic advisor and operator helping founders and executives turn strategy into execution.",
+}
+
 export default function AboutPage() {
   return (
     <div className="container mx-auto px-4 md:px-6 max-w-4xl py-12 md:py-16">

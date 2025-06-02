@@ -1,5 +1,10 @@
 import React from "react";
 
+export const metadata = {
+  title: "Terms of Service | Tom Hamilton",
+  description: "Understand the terms and conditions for using Tom Hamilton's website and services.",
+}
+
 export default function TermsOfServicePage() {
   return (
     <div className="container max-w-3xl py-12 md:py-16">

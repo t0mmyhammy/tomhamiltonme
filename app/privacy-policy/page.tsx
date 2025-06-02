@@ -1,5 +1,11 @@
 import React from "react";
 
+export const metadata = {
+  title: "Privacy Policy | Tom Hamilton",
+  description:
+    "Read how Tom Hamilton collects, uses, and protects your personal information when visiting this site.",
+}
+
 export default function PrivacyPolicyPage() {
   return (
     <div className="container max-w-3xl py-12 md:py-16">

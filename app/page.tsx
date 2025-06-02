@@ -11,6 +11,12 @@ import {
   Banknote,
   Handshake,
 } from "lucide-react"
+
+export const metadata = {
+  title: "Tom Hamilton | Strategic Advisor",
+  description:
+    "Strategic advisory for founders and executives. Go-to-market optimization, operational efficiency, and executive coaching that drive real results.",
+}
 import { Button } from "@/components/ui/button"
 import { Card, CardContent } from "@/components/ui/card"
 
@@ -41,7 +47,7 @@ export default function Home() {
               <div className="relative w-[400px] h-[500px] md:w-[500px] md:h-[600px] overflow-hidden">
                 <img
                   src="/images/Hero-Grayscale.png"
-                  alt="Tom Hamilton"
+                  alt="Tom Hamilton strategic advisor"
                   className="object-cover w-full h-full animate-float"
                 />
               </div>
