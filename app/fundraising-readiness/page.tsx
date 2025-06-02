@@ -2,41 +2,38 @@ import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { ArrowRight } from "lucide-react"
 
-export default function StrategicAdvisoryPage() {
+export default function FundraisingReadinessPage() {
   return (
     <div className="container mx-auto px-4 md:px-6 max-w-4xl py-12 md:py-16">
       <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8 text-center">
-        Strategic Advisory
+        Fundraising Readiness
       </h1>
 
       <div className="prose prose-slate max-w-none">
         <h2>Overview</h2>
         <p>
-          Most consultants give you frameworks. I give you frameworks plus the operational support to implement them. Every engagement is built to create momentum, not just insights.
-        </p>
-        <p>
-          Strategy is choice. It's what you say no to. If your team can't articulate the plan in plain English, it's just expensive planning.
+          Fundraising is part pitch, part posture. We'll tighten your story, prep your metrics, and get you ready for the conversations that matter.
         </p>
 
         <h2>Client Testimonial</h2>
         <blockquote>
           <p>
-            "Tom's blend of clarity and hands-on help changed the pace of our company."
+            "Our raise moved forward quickly once Tom helped us refine the narrative and materials."
           </p>
         </blockquote>
 
         <h2>Deliverables &amp; Process</h2>
         <ul>
-          <li>Focused sprints tackling priority challenges</li>
-          <li>Ongoing advisory check-ins</li>
-          <li>Frameworks translated into real action</li>
+          <li>Metrics and narrative review</li>
+          <li>Investor materials and Q&amp;A prep</li>
+          <li>Coaching on pitch delivery</li>
         </ul>
 
         <h2>Benefits</h2>
         <ul>
-          <li>Sharper decision making</li>
-          <li>Alignment from leadership through the front line</li>
-          <li>Momentum that lasts</li>
+          <li>Stronger investor conversations</li>
+          <li>Clearer financial story</li>
+          <li>Confidence heading into the raise</li>
         </ul>
       </div>
 
