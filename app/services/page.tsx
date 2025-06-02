@@ -1,22 +1,20 @@
 import { Card, CardContent } from "@/components/ui/card"
-import Link from "next/link"
 import { Button } from "@/components/ui/button"
+import Link from "next/link"
 import caseStudies from "@/lib/caseStudies"
 
 export const metadata = {
-  title: "Case Studies & Results",
-  description:
-    "See examples of go-to-market optimization, operational improvements, and executive coaching results delivered by Tom Hamilton.",
+  title: "Services",
+  description: "Overview of how Tom Hamilton helps startups and executives."
 }
 
-export default function ResultsPage() {
+export default function ServicesPage() {
   return (
-    <>
-      <div className="container mx-auto px-4 md:px-6 max-w-4xl py-12 md:py-16">
-      <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8">Results</h1>
+    <div className="container mx-auto px-4 md:px-6 max-w-4xl py-12 md:py-16">
+      <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-8">Services</h1>
 
       <div className="prose prose-slate max-w-none mb-10">
-        <p>The outcomes that matter—measurable impact, not just activity.</p>
+        <p>Strategic advisory and hands-on support to help you build momentum.</p>
       </div>
 
       <div className="space-y-10" id="case-studies">
@@ -58,27 +56,13 @@ export default function ResultsPage() {
             </CardContent>
           </Card>
         ))}
-        </div>
       </div>
 
-      {/* Full-width CTA Section */}
-      <section className="w-full py-12 md:py-24 bg-slate-900 text-white mt-16">
-        <div className="container mx-auto px-4 md:px-6 max-w-7xl">
-          <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center max-w-6xl mx-auto">
-            <div className="space-y-4">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Ready to Build Momentum?</h2>
-              <p className="text-gray-300 md:text-xl">
-                Whether it's go-to-market clarity, operational friction, or a career move you want to get right—let's work through it together.
-              </p>
-            </div>
-            <Link href="/contact" className="w-full">
-              <Button className="w-full bg-white text-slate-900 hover:bg-gray-200 h-12 transition-all duration-200">
-                Let&apos;s Get Going
-              </Button>
-            </Link>
-          </div>
-        </div>
-      </section>
-    </>
+      <div className="mt-12 flex justify-center">
+        <Link href="/contact">
+          <Button className="bg-slate-900 hover:bg-slate-800">Start the Conversation</Button>
+        </Link>
+      </div>
+    </div>
   )
 }
