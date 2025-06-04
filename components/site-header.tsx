@@ -1,9 +1,12 @@
+"use client"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
 import { Menu } from "lucide-react"
+import { usePathname } from "next/navigation"
 
 export default function SiteHeader() {
+  const pathname = usePathname()
   return (
     <header className="sticky top-0 z-50 w-full border-b bg-white/95 backdrop-blur-sm">
         <div className="container mx-auto flex h-16 items-center justify-between px-4 md:px-6">
@@ -13,10 +16,10 @@ export default function SiteHeader() {
           </Link>
         </div>
         <nav className="hidden md:flex gap-8 items-center">
-          <Link href="/what-i-do" className="text-sm font-medium hover:text-slate-700 transition-colors duration-200">What I Do</Link>
-          <Link href="/how-i-work" className="text-sm font-medium hover:text-slate-700 transition-colors duration-200">How I Work</Link>
-          <Link href="/results" className="text-sm font-medium hover:text-slate-700 transition-colors duration-200">Results</Link>
-          <Link href="/about" className="text-sm font-medium hover:text-slate-700 transition-colors duration-200">About</Link>
+          <Link href="/services" className={`text-sm font-medium transition-colors duration-200 px-1 ${pathname === '/services' ? 'text-slate-900 font-bold border-b-4 border-slate-900' : 'hover:text-slate-700'}`}>What I Do</Link>
+          <Link href="/how-i-work" className={`text-sm font-medium transition-colors duration-200 px-1 ${pathname === '/how-i-work' ? 'text-slate-900 font-bold border-b-4 border-slate-900' : 'hover:text-slate-700'}`}>How I Work</Link>
+          <Link href="/results" className={`text-sm font-medium transition-colors duration-200 px-1 ${pathname === '/results' ? 'text-slate-900 font-bold border-b-4 border-slate-900' : 'hover:text-slate-700'}`}>Results</Link>
+          <Link href="/about" className={`text-sm font-medium transition-colors duration-200 px-1 ${pathname === '/about' ? 'text-slate-900 font-bold border-b-4 border-slate-900' : 'hover:text-slate-700'}`}>About</Link>
           <Link href="/contact">
             <Button className="bg-slate-900 text-white hover:bg-slate-800 transition-all duration-200">
               Lets Chat
@@ -32,10 +35,10 @@ export default function SiteHeader() {
           </SheetTrigger>
           <SheetContent side="right">
             <nav className="flex flex-col gap-4 mt-8">
-              <Link href="/what-i-do" className="text-lg font-medium hover:text-slate-700 transition-colors duration-200">What I Do</Link>
-              <Link href="/how-i-work" className="text-lg font-medium hover:text-slate-700 transition-colors duration-200">How I Work</Link>
-              <Link href="/results" className="text-lg font-medium hover:text-slate-700 transition-colors duration-200">Results</Link>
-              <Link href="/about" className="text-lg font-medium hover:text-slate-700 transition-colors duration-200">About</Link>
+              <Link href="/services" className={`text-lg font-medium transition-colors duration-200 px-1 ${pathname === '/services' ? 'text-slate-900 font-bold border-b-4 border-slate-900' : 'hover:text-slate-700'}`}>What I Do</Link>
+              <Link href="/how-i-work" className={`text-lg font-medium transition-colors duration-200 px-1 ${pathname === '/how-i-work' ? 'text-slate-900 font-bold border-b-4 border-slate-900' : 'hover:text-slate-700'}`}>How I Work</Link>
+              <Link href="/results" className={`text-lg font-medium transition-colors duration-200 px-1 ${pathname === '/results' ? 'text-slate-900 font-bold border-b-4 border-slate-900' : 'hover:text-slate-700'}`}>Results</Link>
+              <Link href="/about" className={`text-lg font-medium transition-colors duration-200 px-1 ${pathname === '/about' ? 'text-slate-900 font-bold border-b-4 border-slate-900' : 'hover:text-slate-700'}`}>About</Link>
               <Link href="/contact" className="text-lg font-medium bg-slate-900 text-white rounded-md px-4 py-2 hover:bg-slate-800 transition-all duration-200">Lets Chat</Link>
             </nav>
           </SheetContent>

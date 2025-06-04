@@ -52,8 +52,8 @@ export default function ContactForm() {
 
       <div className="prose prose-slate max-w-none mb-8">
         <p className="lead">
-          Ready to bridge strategy and execution? Let's start with a 60-minute diagnostic call where we'll identify your
-          biggest leverage points and create a clear path forward.
+          This isn't a sales call.<br />
+          It's a quick, no-pressure 30-minute chat to understand where you are, what you're working through, and whether I can help.
         </p>
       </div>
 
@@ -90,10 +90,10 @@ export default function ContactForm() {
             </div>
 
             <div className="space-y-2">
-              <label htmlFor="company" className="text-sm font-medium">
-                Company
+              <label htmlFor="phone" className="text-sm font-medium">
+                Phone (optional)
               </label>
-              <Input id="company" name="company" />
+              <Input id="phone" name="phone" type="tel" />
             </div>
 
             <div className="space-y-2">
@@ -101,25 +101,6 @@ export default function ContactForm() {
                 LinkedIn (optional)
               </label>
               <Input id="linkedin" name="linkedin" type="url" />
-            </div>
-
-            <div className="space-y-2">
-              <label htmlFor="interest" className="text-sm font-medium">
-                I'm interested in
-              </label>
-              <Select value={interest} onValueChange={setInterest}>
-                <SelectTrigger>
-                  <SelectValue placeholder="Select an option" />
-                </SelectTrigger>
-                <SelectContent>
-                  <SelectItem value="gtm">Go-to-Market / Sales</SelectItem>
-                  <SelectItem value="operations">Operations</SelectItem>
-                  <SelectItem value="product">Product</SelectItem>
-                  <SelectItem value="organization">Organization</SelectItem>
-                  <SelectItem value="fundraising">Fundraising</SelectItem>
-                  <SelectItem value="career">Career Transition / Negotiation</SelectItem>
-                </SelectContent>
-              </Select>
             </div>
 
             <div className="space-y-2">

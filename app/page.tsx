@@ -198,14 +198,14 @@ export default function Home() {
           <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-2 text-center">Real Results</h2>
           <p className="text-xl text-center text-gray-500 mb-8">The outcomes that matter—measurable impact, not just activity.</p>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8">
-            <div className="border rounded-lg p-6 bg-slate-50 text-gray-700 italic flex items-center justify-center">
-              "We were burning too much on acquisition and not scaling fast enough—until Tom stepped in. In six months, our CAC dropped 30% and our GTM strategy finally clicked. But the real value? Tom didn't just fix sales—he challenged how we worked, pushed us on accountability, and helped shape a culture of execution. He saw opportunities across the business we didn't even know we were missing."
+            <div className="border rounded-lg p-6 bg-slate-50 text-gray-700 flex items-center justify-center">
+              <span className="italic">“Our go-to-market motion felt disjointed—too many messages, no clear process. Tom helped us tighten everything up. We finally had a story that resonated, a process that worked, and a team that felt confident again. He brought structure without slowing us down.”</span> <span className="font-bold ml-2">- Seed Series CEO</span>
             </div>
-            <div className="border rounded-lg p-6 bg-slate-50 text-gray-700 italic flex items-center justify-center">
-              "Our ops were messy and expensive. Tom helped us rebuild the playbook, improve on-time delivery, and cut costs enough to expand a national retail partnership. What stood out was how quickly he called out our blind spots and built trust on the ground. He didn't stay in his lane—he raised the bar across the board and held us to it."
+            <div className="border rounded-lg p-6 bg-slate-50 text-gray-700 flex items-center justify-center">
+              <span className="italic">“Our ops were messy and expensive. Tom rebuilt our playbook, improved delivery, and cut costs enough to land a national partnership. He taught us fundamentals and helped us level up fast.”</span> <span className="font-bold ml-2">- Series A CEO & Founder</span>
             </div>
-            <div className="border rounded-lg p-6 bg-slate-50 text-gray-700 italic flex items-center justify-center">
-              "I went into the offer conversation feeling uncertain. With Tom's help, I walked out with $90k more and a clear path on equity. But more than the comp bump, he helped me show up differently—more strategic, more clear. He asked hard questions early, helped me think bigger, and even challenged how I defined my next chapter. That kind of coaching sticks."
+            <div className="border rounded-lg p-6 bg-slate-50 text-gray-700 flex items-center justify-center">
+              <span className="italic">“I was unsure going into the offer conversation. With Tom’s help, I walked out $40k ahead and crystal clear on what I wanted. His coaching challenged my thinking—and helped me confidently ask for more.”</span> <span className="font-bold ml-2">- Head of Product at Late-Stage Startup</span>
             </div>
           </div>
           <div className="flex justify-center mb-4">
