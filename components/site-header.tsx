@@ -1,12 +1,6 @@
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { Sheet, SheetContent, SheetTrigger } from "@/components/ui/sheet"
-import {
-  DropdownMenu,
-  DropdownMenuContent,
-  DropdownMenuItem,
-  DropdownMenuTrigger,
-} from "@/components/ui/dropdown-menu"
 import { Menu } from "lucide-react"
 
 export default function SiteHeader() {
@@ -22,18 +16,6 @@ export default function SiteHeader() {
           <Link href="/what-i-do" className="text-sm font-medium hover:text-slate-700 transition-colors duration-200">What I Do</Link>
           <Link href="/how-i-work" className="text-sm font-medium hover:text-slate-700 transition-colors duration-200">How I Work</Link>
           <Link href="/results" className="text-sm font-medium hover:text-slate-700 transition-colors duration-200">Results</Link>
-          <DropdownMenu>
-            <DropdownMenuTrigger className="text-sm font-medium focus:outline-none hover:text-slate-700 transition-colors duration-200">
-              Services
-            </DropdownMenuTrigger>
-            <DropdownMenuContent align="end">
-              <DropdownMenuItem className="p-0">
-                <Link href="/strategic-advisory" className="block w-full px-2 py-1">
-                  Strategic Advisory
-                </Link>
-              </DropdownMenuItem>
-            </DropdownMenuContent>
-          </DropdownMenu>
           <Link href="/about" className="text-sm font-medium hover:text-slate-700 transition-colors duration-200">About</Link>
           <Link href="/contact">
             <Button className="bg-slate-900 text-white hover:bg-slate-800 transition-all duration-200">
@@ -53,7 +35,6 @@ export default function SiteHeader() {
               <Link href="/what-i-do" className="text-lg font-medium hover:text-slate-700 transition-colors duration-200">What I Do</Link>
               <Link href="/how-i-work" className="text-lg font-medium hover:text-slate-700 transition-colors duration-200">How I Work</Link>
               <Link href="/results" className="text-lg font-medium hover:text-slate-700 transition-colors duration-200">Results</Link>
-              <Link href="/strategic-advisory" className="text-lg font-medium hover:text-slate-700 transition-colors duration-200">Strategic Advisory</Link>
               <Link href="/about" className="text-lg font-medium hover:text-slate-700 transition-colors duration-200">About</Link>
               <Link href="/contact" className="text-lg font-medium bg-slate-900 text-white rounded-md px-4 py-2 hover:bg-slate-800 transition-all duration-200">Lets Chat</Link>
             </nav>
