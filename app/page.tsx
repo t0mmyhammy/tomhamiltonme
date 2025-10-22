@@ -208,14 +208,6 @@ export default function Home() {
               <span className="italic">“I was unsure going into the offer conversation. With Tom’s help, I walked out $40k ahead and crystal clear on what I wanted. His coaching challenged my thinking—and helped me confidently ask for more.”</span> <span className="font-bold ml-2">- Head of Product at Late-Stage Startup</span>
             </div>
           </div>
-          <div className="flex justify-center mb-4">
-            <a href="/results">
-              <button className="border border-slate-900 rounded-md px-6 py-3 font-medium text-slate-900 hover:bg-slate-100 transition-all duration-200 flex items-center gap-2">
-                Read More Case Studies
-                <span aria-hidden="true">→</span>
-              </button>
-            </a>
-          </div>
         </div>
       </section>
 
