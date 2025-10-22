@@ -9,9 +9,21 @@ const config: Config = {
     "./app/**/*.{js,ts,jsx,tsx,mdx}",
     "*.{js,ts,jsx,tsx,mdx}",
   ],
-  theme: {
-    extend: {
-      colors: {
+        theme: {
+          extend: {
+            fontFamily: {
+              'gilroy': ['Gilroy', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'sans-serif'],
+            },
+            colors: {
+              // Open Tee Brand Colors
+              'opentee': {
+                'black': '#0A0A0A',
+                'slate': '#111827',
+                'off-white': '#F8F9FA',
+                'heading': '#0F172A',
+                'body': '#334155',
+                'accent': '#2563EB',
+              },
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
         card: {

@@ -8,9 +8,9 @@ import SiteFooter from "@/components/site-footer"
 const inter = Inter({ subsets: ["latin"] })
 
 export const metadata = {
-  title: "Tom Hamilton | What I Do",
+  title: "Open Tee",
   description:
-    "Strategy that actually ships. For founders and executives who refuse to let good strategy die in a slide deck.",
+    "Build real businesses. In Michigan. Through Open Tee, we buy and grow service companies. We share what works. We help a few teams each year when it makes sense.",
     generator: 'v0.dev'
 }
 
@@ -22,19 +22,22 @@ export default function RootLayout({
   return (
     <html lang="en" suppressHydrationWarning>
       <head>
-        <title>Tom Hamilton</title>
-        <meta name="description" content="Tom Hamilton" />
+        <title>Open Tee</title>
+        <meta name="description" content="Build real businesses. In Michigan. Through Open Tee, we buy and grow service companies." />
+        <link rel="preconnect" href="https://fonts.googleapis.com" />
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
+        <link href="https://fonts.googleapis.com/css2?family=Gilroy:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
         {/* Open Graph */}
-        <meta property="og:title" content="Tom Hamilton" />
-        <meta property="og:description" content="Tom Hamilton" />
-        <meta property="og:image" content="/THlogo.jpg" />
+        <meta property="og:title" content="Open Tee" />
+        <meta property="og:description" content="Build real businesses. In Michigan. Through Open Tee, we buy and grow service companies." />
+        <meta property="og:image" content="/OpenTeeLogo.png" />
         <meta property="og:url" content="https://tomhamilton.me/" />
         <meta property="og:type" content="website" />
         {/* Twitter Card */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content="Tom Hamilton" />
-        <meta name="twitter:description" content="Tom Hamilton" />
-        <meta name="twitter:image" content="/THlogo.jpg" />
+        <meta name="twitter:title" content="Open Tee" />
+        <meta name="twitter:description" content="Build real businesses. In Michigan. Through Open Tee, we buy and grow service companies." />
+        <meta name="twitter:image" content="/OpenTeeLogo.png" />
       </head>
       <body className={inter.className}>
         <div className="relative flex min-h-screen flex-col">
