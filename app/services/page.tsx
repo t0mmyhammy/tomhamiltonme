@@ -166,7 +166,7 @@ const services = [
 const clientTypes = [
   {
     icon: Rocket,
-    title: "Founders scaling beyond PMF",
+    title: "Founders building to and beyond PMF",
     description: "Ready to move from product-market fit to sustainable growth"
   },
   {
