@@ -24,6 +24,7 @@ export default function RootLayout({
       <head>
         <title>Open Tee</title>
         <meta name="description" content="Build real businesses. In Michigan. Through Open Tee, we buy and grow service companies." />
+        <link rel="icon" href="/OpenTeeFavicon3.png" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
         <link href="https://fonts.googleapis.com/css2?family=Gilroy:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
