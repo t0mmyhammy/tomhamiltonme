@@ -73,6 +73,18 @@ export default function BuyPage() {
               <ul className="space-y-4 text-opentee-body">
                 <li className="flex items-start gap-3">
                   <span className="text-opentee-accent font-bold">•</span>
+                  <span>Strategic expertise from McKinsey & Company consulting experience</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-opentee-accent font-bold">•</span>
+                  <span>Early-stage startup grit and speed from building and scaling tech companies</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-opentee-accent font-bold">•</span>
+                  <span>Corporate operational discipline from Fortune 500 leadership roles</span>
+                </li>
+                <li className="flex items-start gap-3">
+                  <span className="text-opentee-accent font-bold">•</span>
                   <span>Smooth transitions for owners and teams</span>
                 </li>
                 <li className="flex items-start gap-3">
@@ -86,7 +98,7 @@ export default function BuyPage() {
               </ul>
             </div>
             <div>
-              <h3 className="text-2xl font-bold text-opentee-heading mb-6">What We Look For</h3>
+              <h2 className="text-3xl font-bold text-opentee-heading mb-6">What We Look For</h2>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <Card className="border-2 border-opentee-off-white hover:border-opentee-accent transition-all duration-300">
                   <CardContent className="p-6">
